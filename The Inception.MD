@@ -114,3 +114,90 @@ instead of
 > “We need a new operating model for infrastructure, applications, governance, automation, and service delivery”
 
 That difference is huge.
+
+# Stage 2: Initial scoping and leadership alignment
+
+## What this stage is
+
+Now Acme moves from “we have a problem” to “what kind of problem is it?”
+
+This is where they start aligning on what they are actually trying to solve.
+
+| Possible Focus Areas |
+|---------------------|
+| data center exit |
+| cloud migration |
+| platform modernization |
+| cost reduction |
+| application transformation |
+| managed services |
+| operating model redesign |
+| all of the above |
+
+This stage is critical because many failed sourcing exercises begin with internal disagreement.
+
+---
+
+## Who is involved on the customer side
+
+### Information technology leadership  
+They define the broad transformation ambition.
+
+### Enterprise architects  
+They help separate symptoms from root causes.
+
+### Security leadership  
+They identify control and compliance concerns.
+
+### Finance leadership  
+They ask what business value is expected.
+
+### Procurement team  
+Procurement is the function that manages the formal buying process, vendor engagement, commercial fairness, and documentation standards.
+
+### Legal team  
+They advise on contracting implications early if needed.
+
+### Transformation office or strategy office  
+If Acme has a dedicated transformation team, they may coordinate the work.
+
+---
+
+## Key questions answered here
+
+| Question |
+|----------|
+| Why are we doing this? |
+| What outcomes do we want? |
+| Are we buying a project, a managed service, a transformation partner, or a combination? |
+| Is the goal efficiency, modernization, speed, compliance, or strategic change? |
+| Are we looking for one vendor or multiple vendors? |
+| Do we want advisory only, delivery only, or full lifecycle support? |
+
+---
+
+## What gets produced
+
+Usually one or more of these:
+
+| Output |
+|--------|
+| problem statement |
+| transformation objectives |
+| high-level scope note |
+| executive alignment pack |
+
+---
+
+## What can go wrong here
+
+| Stakeholder | Preference |
+|------------|-----------|
+| business | wants speed |
+| finance | wants cost reduction |
+| security | wants control |
+| operations | wants stability |
+
+no one reconciles these into a common vision
+
+If that happens, the Request for Proposal becomes confused and vendors respond to different interpretations.
