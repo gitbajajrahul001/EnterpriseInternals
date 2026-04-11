@@ -2,6 +2,6 @@ theme: minima
 title: My Enterprise Journey
 
 header_pages:
-  - series.md
+  - index.md
   - about.md
   - contact.md
