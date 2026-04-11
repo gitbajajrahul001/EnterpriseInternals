@@ -5,6 +5,8 @@ title: RFP Playbook
 
 # 🏢 Enterprise RFP Playbook
 
+A practical guide to the enterprise Request for Proposal lifecycle, from problem recognition to vendor evaluation.
+
 ## 📊 Overview
 
 ![RFP Lifecycle](/images/rfp-diagram.png)
