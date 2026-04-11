@@ -39,21 +39,40 @@ Ensure RFP is:
 |--------|
 | Approved RFP ready for release |
 
+---
 
-🏢 STAGE 9 — RFP RELEASE TO VENDORS
-🎯 Goal:
+# 🏢 Stage 9 — RFP Release to Vendors
+
+## 🎯 Goal
 
 Start formal vendor engagement
 
-👥 Who is involved:
-Procurement (primary owner)
-🛠 What happens:
-RFP sent to shortlisted vendors
-Timeline shared:
-Q&A window (vendors can ask clarification questions)
-Submission deadline
-📦 Output:
-Vendors start preparing proposals
+---
+
+## 👥 Who Is Involved
+
+| Role |
+|------|
+| Procurement (primary owner) |
+
+---
+
+## 🛠 What Happens
+
+| Activity |
+|----------|
+| RFP sent to shortlisted vendors |
+| Timeline shared |
+| Q&A window (vendors can ask clarification questions) |
+| Submission deadline |
+
+---
+
+## 📦 Output
+
+| Output |
+|--------|
+| Vendors start preparing proposals |
 
 ---
 
@@ -130,3 +149,5 @@ Select best vendor
 | Commercial scoring |
 | Risk assessment |
 | Vendor presentations |
+
+
