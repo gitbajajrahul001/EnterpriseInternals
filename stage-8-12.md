@@ -1,3 +1,7 @@
+---
+layout: default
+title: Stage 8-12
+---
 # 🏢 Stage 8 — Internal Review & Approval
 
 ## 🎯 Goal
