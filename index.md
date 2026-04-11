@@ -5,7 +5,9 @@ title: Home
 
 # Welcome
 
-This site contains structured guides, articles, and series on enterprise architecture, cloud transformation, and platform strategy.
+This site is a collection of structured insights, playbooks, and real-world learnings, designed to simplify complex enterprise technology concepts and present them in a clear, end-to-end format.
+
+It is built for professionals who want to understand not just *what* to do, but *how things actually work in real-world enterprise environments*.
 
 ## Featured Series
 
