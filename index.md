@@ -13,7 +13,9 @@ I’ve put this together for anyone who finds themselves in the same position I 
 
 ## 📊 A Typical RFP Flow Chart
 
-The RFP process is often misunderstood as a single document or event. In reality, it is a multi-stage journey that starts long before vendors are engaged. The diagram below provides a high-level view of how an enterprise RFP lifecycle typically flows—from initial problem recognition to final vendor evaluation.
+The RFP process is often misunderstood as a single document or event. In reality, it is a multi-stage journey that starts long before vendors are engaged. 
+
+The diagram below provides a high-level view of how an enterprise RFP lifecycle typically flows—from initial problem recognition to final vendor evaluation.
 
 ![RFP Lifecycle](/images/rfp-diagram.png)
 
