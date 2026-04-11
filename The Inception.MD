@@ -1,3 +1,32 @@
+*Objective of this blog post is to establish a strong foundational knowledge & profound understanding of a key process cycle in a possibly every organization*
+
+# The real purpose of the Request for Proposal process
+
+A Request for Proposal is a formal document that an organization sends to selected vendors asking them to propose a solution for a business problem. In Acme scenario, the real problem is not “move to cloud.” The real problem is something like this:
+
+> Information technology is fragmented
+> Delivery is slow
+> Provisioning takes too long
+> Shadow information technology exists
+> Cost is not well controlled
+> Accountability is weak
+> Application and infrastructure standards are inconsistent
+> Business teams are not getting what they need fast enough
+
+So the Request for Proposal is not just a buying exercise. It is a structured process for turning a messy business problem into a clear market ask. That means the process starts long before the document is sent out.
+
+*The full process from inception to release*
+
+I will break this into stages and for each stage, I will cover:
+
+what the stage is for
+who is involved on the customer side
+who may be involved on the service provider side
+what gets produced
+what can go wrong if this stage is poorly done
+---
+
+
 # Stage 1: Trigger and Problem Recognition
 
 ## 📌 What this Stage Is
