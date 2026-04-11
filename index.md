@@ -20,8 +20,5 @@ title: RFP Playbook
 | Stage 3: Current-State Assessment | [Open](stage-3.md) |
 | Stage 4: Future-State Vision | [Open](stage-4.md) |
 | Stage 5: Sourcing Strategy | [Open](stage-5.md) |
-| Stage 6: RFI | [Open](stage-6.md) |
-| Stage 7: RFP Creation | [Open](stage-7.md) |
-| Stage 8–12: Execution | [Open](stage-8-12.md) |
 
 ---
