@@ -2,6 +2,21 @@
 layout: default
 title: Stage 0
 ---
+## Navigate This Series
+
+| Stage | Link |
+|------|------|
+| Stage 0: Context Setting | [Open](stage-0.md) |
+| Stage 1: Trigger & Problem Recognition | [Open](stage-1.md) |
+| Stage 2: Scoping & Alignment | [Open](stage-2.md) |
+| Stage 3: Current-State Assessment | [Open](stage-3.md) |
+| Stage 4: Future-State Vision | [Open](stage-4.md) |
+| Stage 5: Sourcing Strategy | [Open](stage-5.md) |
+| Stage 6: RFI | [Open](stage-6.md) |
+| Stage 7: RFP Creation | [Open](stage-7.md) |
+| Stage 8–12: Execution | [Open](stage-8-12.md) |
+
+---
 # The Real Purpose of the Request for Proposal Process
 
 A Request for Proposal is a formal document that an organization sends to selected vendors asking them to propose a solution for a business problem. But in practice, it is more than that. The Request for Proposal is a structured process for turning a messy business problem into a clear market ask.

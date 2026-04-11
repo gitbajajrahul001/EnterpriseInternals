@@ -2,6 +2,22 @@
 layout: default
 title: Stage 1
 ---
+## Navigate This Series
+
+| Stage | Link |
+|------|------|
+| Stage 0: Context Setting | [Open](stage-0.md) |
+| Stage 1: Trigger & Problem Recognition | [Open](stage-1.md) |
+| Stage 2: Scoping & Alignment | [Open](stage-2.md) |
+| Stage 3: Current-State Assessment | [Open](stage-3.md) |
+| Stage 4: Future-State Vision | [Open](stage-4.md) |
+| Stage 5: Sourcing Strategy | [Open](stage-5.md) |
+| Stage 6: RFI | [Open](stage-6.md) |
+| Stage 7: RFP Creation | [Open](stage-7.md) |
+| Stage 8–12: Execution | [Open](stage-8-12.md) |
+
+---
+
 # Stage 1: Trigger and Problem Recognition
 
 ## What This Stage Is
@@ -157,4 +173,6 @@ If the thinking is weak, the RFP will be weak. If the alignment is missing, the 
 
 ---
 
-➡️ Next: [Stage 2](stage-2.md)
+[⬅ Back to Series Home](index.md) | [Next: Stage 2 ➡](stage-2.md)
+
+

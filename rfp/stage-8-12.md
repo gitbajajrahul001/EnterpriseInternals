@@ -2,6 +2,21 @@
 layout: default
 title: Stage 8-12
 ---
+## Navigate This Series
+
+| Stage | Link |
+|------|------|
+| Stage 0: Context Setting | [Open](stage-0.md) |
+| Stage 1: Trigger & Problem Recognition | [Open](stage-1.md) |
+| Stage 2: Scoping & Alignment | [Open](stage-2.md) |
+| Stage 3: Current-State Assessment | [Open](stage-3.md) |
+| Stage 4: Future-State Vision | [Open](stage-4.md) |
+| Stage 5: Sourcing Strategy | [Open](stage-5.md) |
+| Stage 6: RFI | [Open](stage-6.md) |
+| Stage 7: RFP Creation | [Open](stage-7.md) |
+| Stage 8–12: Execution | [Open](stage-8-12.md) |
+
+---
 # 🏢 Stage 8 — Internal Review & Approval
 
 ## 🎯 Goal
@@ -188,4 +203,5 @@ Used when:
 | Lack of clarity in RFP |
 | Unrealistic expectations |
 
+[⬅ Back to Series Home](index.md)
 

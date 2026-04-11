@@ -2,6 +2,21 @@
 layout: default
 title: Stage 2
 ---
+## Navigate This Series
+
+| Stage | Link |
+|------|------|
+| Stage 0: Context Setting | [Open](stage-0.md) |
+| Stage 1: Trigger & Problem Recognition | [Open](stage-1.md) |
+| Stage 2: Scoping & Alignment | [Open](stage-2.md) |
+| Stage 3: Current-State Assessment | [Open](stage-3.md) |
+| Stage 4: Future-State Vision | [Open](stage-4.md) |
+| Stage 5: Sourcing Strategy | [Open](stage-5.md) |
+| Stage 6: RFI | [Open](stage-6.md) |
+| Stage 7: RFP Creation | [Open](stage-7.md) |
+| Stage 8–12: Execution | [Open](stage-8-12.md) |
+
+---
 # Stage 2: Initial Scoping and Leadership Alignment
 
 At this point, Acme moves from “we have a problem” to “what kind of problem is it?” This is where many sourcing efforts quietly fail.
@@ -83,5 +98,6 @@ No one reconciles these into a common vision. If that happens, the Request for P
 
 ---
 
-➡️ Next: [Stage 3](stage-3.md)
+[⬅ Back to Series Home](index.md) | [Next: Stage 3 ➡](stage-3.md)
+
 

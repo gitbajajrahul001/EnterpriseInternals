@@ -2,6 +2,21 @@
 layout: default
 title: Stage 6
 ---
+## Navigate This Series
+
+| Stage | Link |
+|------|------|
+| Stage 0: Context Setting | [Open](stage-0.md) |
+| Stage 1: Trigger & Problem Recognition | [Open](stage-1.md) |
+| Stage 2: Scoping & Alignment | [Open](stage-2.md) |
+| Stage 3: Current-State Assessment | [Open](stage-3.md) |
+| Stage 4: Future-State Vision | [Open](stage-4.md) |
+| Stage 5: Sourcing Strategy | [Open](stage-5.md) |
+| Stage 6: RFI | [Open](stage-6.md) |
+| Stage 7: RFP Creation | [Open](stage-7.md) |
+| Stage 8–12: Execution | [Open](stage-8-12.md) |
+
+---
 # 🏢 Stage 6 — RFI (Request for Information)
 
 ## 🎯 Goal
@@ -60,4 +75,5 @@ Acme sends RFI to multiple vendors (5–10 typically). Vendors respond with:
 
 ---
 
-➡️ Next: [Stage 7](stage-7.md)
+[⬅ Back to Series Home](index.md) | [Next: Stage 7 ➡](stage-7.md)
+
