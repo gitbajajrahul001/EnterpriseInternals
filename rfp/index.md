@@ -5,23 +5,11 @@ title: From Problem to Proposal - The RFP Journey
 
 # 🏢 From Problem to Proposal - The RFP Journey
 
-A practical guide to the enterprise Request for Proposal lifecycle—from problem recognition to vendor evaluation.
+In my early years, I struggled to understand the RFP process—not just from a service provider’s perspective, but also from where it originates within an organization. When I searched online, most of what I found was fragmented and often added to the confusion rather than resolving it.
 
----
+It was only after spending significant time working through real scenarios that the process started to make sense end-to-end. This series is based on that journey. I’ve put this together for anyone who finds themselves in the same position I once was—trying to connect the dots.
 
-In my early years, I struggled to understand the RFP process—not just from a service provider’s perspective, but also from where it originates within an organization.
-
-When I searched online, most of what I found was fragmented and often added to the confusion rather than resolving it.
-
-It was only after spending significant time working through real scenarios that the process started to make sense end-to-end.
-
-This series is based on that journey.
-
----
-
-I’ve put this together for anyone who finds themselves in the same position I once was—trying to connect the dots.
-
-My aim is to present the RFP lifecycle in a structured, sequential way, covering details that are often scattered or not easily accessible in one place.
+In this series, my aim is to present the RFP lifecycle in a structured, sequential way, covering details that are often scattered or not easily accessible in one place.
 
 I hope you find it useful.
 
@@ -29,9 +17,7 @@ I hope you find it useful.
 
 ## 📊 A Typical RFP Flow Chart
 
-The RFP process is often misunderstood as a single document or event.
-
-In reality, it is a multi-stage journey that starts long before vendors are engaged.
+The RFP process is often misunderstood as a single document or event.In reality, it is a multi-stage journey that starts long before vendors are engaged.
 
 The diagram below provides a high-level view of how an enterprise RFP lifecycle typically flows—from initial problem recognition to final vendor evaluation.
 
