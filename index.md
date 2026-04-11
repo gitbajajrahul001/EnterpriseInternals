@@ -1,6 +1,6 @@
 ---
 layout: default
-title: From Problem to Proposal- The RFP Journey
+title: From Problem to Proposal The RFP Journey
 ---
 
 # 🏢 From Problem to Proposal: The RFP Journey
