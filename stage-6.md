@@ -1,3 +1,7 @@
+---
+layout: default
+title: Stage 6
+---
 # 🏢 Stage 6 — RFI (Request for Information)
 
 ## 🎯 Goal
