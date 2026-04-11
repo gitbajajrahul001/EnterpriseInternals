@@ -223,3 +223,7 @@ If that happens, the Request for Proposal becomes confused and vendors respond t
 
 If the thinking is weak, the RFP will be weak.  
 If the alignment is missing, the responses will be misaligned.
+
+---
+
+➡️ Next: [Stage 2](stage-2.md)
