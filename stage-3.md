@@ -1,3 +1,7 @@
+---
+layout: default
+title: Stage 3
+---
 # Stage 3: Current-State Assessment
 
 Before Acme asks the market for proposals, it needs to understand its own environment well enough to ask sensible questions.
