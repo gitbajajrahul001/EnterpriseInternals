@@ -4,14 +4,14 @@
 
 A Request for Proposal is a formal document that an organization sends to selected vendors asking them to propose a solution for a business problem. In Acme scenario, the real problem is not “move to cloud.” The real problem is something like this:
 
-> Information technology is fragmented
-> Delivery is slow
-> Provisioning takes too long
-> Shadow information technology exists
-> Cost is not well controlled
-> Accountability is weak
-> Application and infrastructure standards are inconsistent
-> Business teams are not getting what they need fast enough
+Information technology is fragmented
+Delivery is slow
+Provisioning takes too long
+Shadow information technology exists
+Cost is not well controlled
+Accountability is weak
+Application and infrastructure standards are inconsistent
+Business teams are not getting what they need fast enough
 
 So the Request for Proposal is not just a buying exercise. It is a structured process for turning a messy business problem into a clear market ask. That means the process starts long before the document is sent out.
 
