@@ -51,3 +51,5 @@ You can read this guide in two ways:
 Each stage builds on the previous one, but can also be understood independently.
 
 ---
+
+➡️ Next: [Stage 0](stage-0.md)

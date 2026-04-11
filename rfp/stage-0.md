@@ -56,5 +56,5 @@ I will break this into stages. For each stage, I will cover:
 
 ---
 
-➡️ Next: [Stage 1](stage-1.md)
+[⬅ Back to Series Home](index.md) | [Next: Stage 1 ➡](stage-1.md)
 
