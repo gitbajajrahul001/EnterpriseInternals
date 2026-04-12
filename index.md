@@ -3,7 +3,9 @@ layout: default
 title: Home
 ---
 
-# Welcome to my blog
+# Lucid Stack
+
+### Breaking Down Enterprise Cloud, Platforms, and Automation
 
 *Over the years*, I realized that while there is no shortage of information available online, most of it is either too theoretical, too fragmented, or disconnected from how things actually work in real-world enterprise environments. This often makes it difficult for professionals to build a clear, end-to-end understanding of complex topics. 
 

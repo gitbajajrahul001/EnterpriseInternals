@@ -1,5 +1,6 @@
 theme: minima
-title: My Enterprise Journey
+title: Lucid Stack
+description: "Breaking Down Enterprise Cloud, Platforms, and Automation"
 sass:
   style: compressed
   
