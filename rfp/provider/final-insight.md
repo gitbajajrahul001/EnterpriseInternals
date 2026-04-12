@@ -8,8 +8,8 @@ title: final-insight
 
 This is where the real difference lies:
 
-> **“On the customer side, the RFP is about defining the problem clearly.  
-On the service provider side, the response is about interpreting that problem better than competitors and translating it into a credible, deliverable solution.”**
+> “On the customer side, the RFP is about defining the problem clearly.  
+On the service provider side, the response is about interpreting that problem better than competitors and translating it into a credible, deliverable solution.”
 
 ---
 
