@@ -21,7 +21,7 @@ The RFP process is often misunderstood as a single document or event. In reality
 
 The diagram below provides a high-level view of how an enterprise RFP lifecycle typically flows—from initial problem recognition to final vendor evaluation.
 
-![RFP Lifecycle](rfp-diagram.png)
+![RFP Lifecycle](images/rfp-diagram.png)
 
 ---
 
