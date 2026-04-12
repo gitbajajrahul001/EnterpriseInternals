@@ -11,4 +11,5 @@ Through this platform, I aim to bridge that gap with a collection of structured 
 
 ## Featured Series
 
-- [From Problem to Proposal: The RFP Journey(Customer)](rfp/customer)
+- [Inside the RFP — Customer View](rfp/customer)
+- [Inside the RFP — Provider View](rfp/provider)
