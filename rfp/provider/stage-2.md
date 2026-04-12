@@ -257,5 +257,6 @@ But also to:
 
 That is where technical capability turns into **business impact**.
 
+---
 
 [⬅ Back to Series Home](index.md) | [Next: Stage 3 ➡](stage-3.md)

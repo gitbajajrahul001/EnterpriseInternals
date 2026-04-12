@@ -270,5 +270,5 @@ They:
 from  
 - A trusted transformation partner
 
-
+---
 [⬅ Back to Series Home](index.md) | [Next: Stage 4 ➡](stage-4.md)

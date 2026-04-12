@@ -201,4 +201,5 @@ But also:
 
 This is where **technical understanding meets business judgment**.
 
+---
 [⬅ Back to Series Home](index.md) | [Next: Stage 2 ➡](stage-2.md)

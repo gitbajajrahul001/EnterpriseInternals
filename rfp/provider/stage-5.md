@@ -286,5 +286,6 @@ Successful delivery models balance:
 
 👉 This balance is what turns a winning proposal into a **successful engagement**
 
+---
 
 [⬅ Back to Series Home](index.md) | [Next: Stage 6 ➡](stage-6.md)

@@ -306,5 +306,6 @@ Great solution design balances:
 
 👉 That balance is what turns architecture into **real transformation**
 
+---
 
 [⬅ Back to Series Home](index.md) | [Next: Stage 5 ➡](stage-5.md)
