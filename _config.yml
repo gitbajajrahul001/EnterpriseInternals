@@ -1,6 +1,8 @@
 theme: minima
 title: My Enterprise Journey
-
+sass:
+  style: compressed
+  
 header_pages:
   - index.md
   - about.md
