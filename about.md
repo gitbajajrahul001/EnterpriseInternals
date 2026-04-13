@@ -9,7 +9,7 @@ My Name is **Rahul Bajaj** and I am an *Enterprise Cloud Transformation and Plat
 
 My work focuses on bridging business objectives with scalable technical architectures and cloud operating models, helping organizations move from fragmented IT environments to structured, efficient, and modern platforms.
 
-I specialize in Azure, AWS, and VMware ecosystems, delivering automation-driven and AI-assisted infrastructure platforms, enterprise landing zones, and cloud modernization programs.
+I specialize in Azure, AWS, and VMware & Cisco Networks ecosystems, delivering automation-driven and AI-assisted infrastructure platforms, enterprise landing zones, and cloud modernization programs.
 
 Over the years, I have worked as a trusted advisor to global organizations across Pharma, Banking, Manufacturing, and Energy sectors, enabling:
 
