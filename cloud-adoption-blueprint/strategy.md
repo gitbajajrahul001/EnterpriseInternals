@@ -2,7 +2,7 @@
 layout: default
 title: Strategy
 ---
-# Azure CAF – Strategy Phase (Beyond Theory)
+# Strategy Phase (Beyond Theory)
 
 ## 🧭 What Strategy Really Means
 
@@ -59,7 +59,7 @@ Organizations must identify applicable regulatory frameworks early:
 
 These requirements directly influence cloud architecture.
 
-| Requirement       | Azure Design Implication              |
+| Requirement       | Design Implication              |
 |------------------|--------------------------------------|
 | Data residency   | Region restrictions                  |
 | Encryption       | Azure Key Vault, encryption policies |

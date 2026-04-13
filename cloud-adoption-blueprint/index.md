@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Enterprise Cloud Model
+title: Cloud Adoption Blueprint
 ---
 
-## 📚 Enterprise Cloud Model
+## 📚 Cloud Adoption Blueprint
 
 This blog series aims to build an **architect’s mindset** for enterprise cloud adoption — starting from the moment an organization begins to envision its journey to the cloud.
 

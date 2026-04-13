@@ -15,4 +15,4 @@ Through this platform, I aim to bridge that gap with a collection of structured 
 
 - [Inside the RFP — Customer View](rfp/customer)
 - [Inside the RFP — Provider View](rfp/provider)
-- [Enterprise Cloud Model](EnterpriseCloudModel)
+- [Cloud Adoption Blueprint](cloud-adoption-blueprint)
