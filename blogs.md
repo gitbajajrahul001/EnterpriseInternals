@@ -22,8 +22,12 @@ A collection of structured, real-world guides across enterprise architecture, cl
 </div>
 
 <div class="card">
-<h3>☁️ Cloud Transformation</h3>
-<p>Practical approaches to cloud migration and modernization.</p>
+<h3>☁️ Cloud Adoption</h3>
+<p>Practical approaches to cloud adoption.</p>
+<ul>
+<li><a href="EnterpriseCloudModel">Customer View</a></li>
+</ul>
+</div>
 
 <ul>
 <li><a href="migration">Migration Strategies</a></li>
