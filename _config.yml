@@ -1,6 +1,6 @@
 theme: minima
-title: ClouDistil.pe
-description: "Breaking Down Enterprise Cloud, Platform Engineering, and Automation"
+title: Enterprise Internals
+description: "How Enterprise Systems, Cloud, and Strategy Actually Work in Practice"
 sass:
   style: compressed
   
