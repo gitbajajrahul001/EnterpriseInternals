@@ -202,48 +202,40 @@ While the above sections outline the questions and approach, in practice these a
 #### 🔷 1. Introduction & Context Setting (15–20 min)
 
 **Objective:** Align stakeholders on purpose and expectations
----
 
 #### 🔷 2. Business Drivers & Objectives (30–40 min)
 
 **Objective:** Understand *why* cloud adoption is being considered
 
----
 
 #### 🔷 3. Application Landscape Discovery (40–50 min)
 
 **Objective:** Understand *what* is being moved
----
 
 ### 🔷 4. Compliance & Constraints (30–40 min)
 
 **Objective:** Identify non-negotiable requirements
 
----
 
 #### 🔷 5. Risk, Resilience & Continuity (30–40 min)
 
 **Objective:** Define availability and recovery expectations
 
----
 
 #### 🔷 6. Organization & Operating Model (30–40 min)
 
 **Objective:** Understand *who* will operate the cloud
 
----
 
 #### 🔷 7. Governance & Cost (20–30 min)
 
 **Objective:** Establish control mechanisms early
 
----
 
 #### 🔷 8. Gap Identification & Alignment (20–30 min)
 
 **Objective:** Highlight inconsistencies and missing information
 
----
 
 #### 📄 Workshop Deliverables
 
