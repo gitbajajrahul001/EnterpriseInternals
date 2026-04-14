@@ -1,6 +1,6 @@
 theme: minima
 title: Enterprise Internals
-description: "How Enterprise Systems, Cloud, and Strategy Actually Work in Practice"
+description: "How Enterprise Systems, Cloud, Automation, and Strategy Actually Work in Practice"
 sass:
   style: compressed
   
