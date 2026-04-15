@@ -10,22 +10,21 @@ title: Plan Phase – Foundations
 
 # Plan Phase – Structuring the Path to Cloud Adoption
 
+This section captures my understanding of the Plan phase by translating strategic intent into a structured execution approach, combining foundational concepts with practical considerations drawn from real-world scenarios.
+
 ## 🧭 What the Plan Phase Really Means
 
-If the Strategy phase defines *why* and *what*, the Plan phase defines:
-
-> **how the organization will approach cloud adoption in a structured and controlled manner**
+If the Strategy phase defines *why* and *what*, the Plan phase defines **how the organization will approach cloud adoption in a structured and controlled manner**
 
 This phase translates high-level intent into:
 - Workload-level decisions  
 - Sequenced execution  
 - Defined operating model  
 
----
 
 ## 🧱 Core Pillars of the Plan Phase
 
----
+Cloud planning is built on a set of interconnected pillars that translate strategy into a structured and executable adoption roadmap.
 
 ### 🔹 1. Digital Estate Understanding
 
@@ -37,9 +36,7 @@ Before planning migration, it is essential to understand the current landscape.
 - Dependencies between systems  
 - Data flows and integrations  
 
----
-
-### 🧠 Insight
+#### 🧠 Insight
 
 In most enterprises, documentation is incomplete or outdated.  
 Actual understanding often comes from:
@@ -53,6 +50,8 @@ Actual understanding often comes from:
 
 Each application must be evaluated and mapped to a migration approach.
 
+#### Key Focus Areas:
+
 | Strategy | Description |
 |----------|------------|
 | Rehost | Lift-and-shift with minimal changes |
@@ -62,9 +61,8 @@ Each application must be evaluated and mapped to a migration approach.
 | Rebuild | Rewrite application from scratch |
 | Retain / Replace | Keep on-prem or replace with SaaS |
 
----
 
-### 🧠 Insight
+#### 🧠 Insight
 
 The 6Rs are not purely technical decisions — they are influenced by:
 - business value  
@@ -83,9 +81,8 @@ Understanding dependencies is essential before sequencing migration.
 - Are there latency-sensitive integrations?  
 - Are there on-prem dependencies?  
 
----
 
-### ⚠️ Common Challenge
+#### ⚠️ Common Challenge
 
 Applications are often migrated without fully understanding dependencies, leading to:
 - broken integrations  
@@ -105,8 +102,6 @@ Cloud adoption is not a one-time activity — it is executed in phases.
 | Wave 1 | Low-risk, non-critical workloads |
 | Wave 2 | Medium complexity applications |
 | Wave 3 | Business-critical systems |
-
----
 
 ### 🧠 Insight
 
@@ -128,7 +123,7 @@ This defines how cloud environments will be structured and managed.
 
 ---
 
-### 🧠 Insight
+#### 🧠 Insight
 
 Most organizations evolve over time:
 
@@ -148,9 +143,7 @@ Planning must account for how teams will function post-adoption.
 - DevOps adoption  
 - Collaboration between teams  
 
----
-
-### 🧠 Insight
+#### 🧠 Insight
 
 Without organizational alignment, even well-designed architectures fail during execution.
 
@@ -165,9 +158,8 @@ Cloud introduces a shift from CapEx to OpEx, requiring new financial controls.
 - Cost allocation (tagging)  
 - Cost optimization strategies  
 
----
 
-### 🧠 Insight
+#### 🧠 Insight
 
 Cloud cost is not just a financial concern — it directly influences architecture decisions.
 
@@ -185,7 +177,7 @@ The Plan phase sets the requirements for the Landing Zone (Ready phase).
 
 ---
 
-### 🔗 Connection
+#### 🔗 Connection
 
 The output of the Plan phase directly feeds into:
 > **Ready Phase (Landing Zone Design and Implementation)**
@@ -207,9 +199,8 @@ The Plan phase transforms strategy into a structured execution roadmap.
 - Operating model definition  
 - Cost and governance considerations  
 
----
 
-## 🧠 Key Insight
+### 🧠 Key Insight
 
 > Planning is not about creating a perfect roadmap — it is about reducing uncertainty and enabling controlled execution.
 
@@ -225,5 +216,4 @@ A well-structured Plan phase ensures that:
 - execution is aligned with business priorities  
 
 ---
-
 [⬅ Back to Strategy](strategy-1.md) | [Next: Ready Phase ➡](ready.md)
