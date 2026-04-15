@@ -3,11 +3,6 @@ layout: default
 title: Plan-Foundations
 ---
 
----
-layout: default
-title: Plan Phase – Foundations
----
-
 # Plan Phase – Structuring the Path to Cloud Adoption
 
 This section captures my understanding of the Plan phase by translating strategic intent into a structured execution approach, combining foundational concepts with practical considerations drawn from real-world scenarios.
