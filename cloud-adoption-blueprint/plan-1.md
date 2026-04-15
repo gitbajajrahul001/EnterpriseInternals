@@ -25,7 +25,7 @@ Cloud planning is built on a set of interconnected pillars that translate strate
 
 Before planning migration, it is essential to understand the current landscape.
 
-#### 🎯 Key Focus Areas:
+#### **Key Focus Areas:**
 
 - Application inventory  
 - Infrastructure footprint  
@@ -46,7 +46,7 @@ In most enterprises, documentation is incomplete or outdated. Actual understandi
 
 Each application must be evaluated and mapped to a migration approach.
 
-#### ⚙️ Key Considerations:
+#### **Key Considerations:**
 
 | Strategy | Description |
 |----------|------------|
@@ -61,10 +61,10 @@ Each application must be evaluated and mapped to a migration approach.
 #### 🧠 Insight
 
 The 6Rs are not purely technical decisions — they are influenced by:
-- business value  
-- cost  
-- timeline  
-- risk tolerance  
+- Business value  
+- Cost  
+- Timeline  
+- Risk tolerance  
 
 ---
 
@@ -72,14 +72,14 @@ The 6Rs are not purely technical decisions — they are influenced by:
 
 Understanding dependencies is essential before sequencing migration.
 
-#### ❓ Key Questions:
+#### **Key Questions:**
 
 - What systems communicate with each other?  
 - Are there latency-sensitive integrations?  
 - Are there on-prem dependencies?  
 
 
-#### ⚠️ Common Challenge
+#### **Common Challenge**
 
 Applications are often migrated without fully understanding dependencies, leading to:
 - broken integrations  
@@ -92,7 +92,7 @@ Applications are often migrated without fully understanding dependencies, leadin
 
 Cloud adoption is not a one-time activity — it is executed in phases.
 
-#### 🔄 Typical Wave Approach:
+#### **Typical Wave Approach:**
 
 | Wave | Type |
 |------|------|
@@ -110,15 +110,13 @@ Migration planning is fundamentally about **risk sequencing**, not just executio
 
 This defines how cloud environments will be structured and managed.
 
-#### 🏗️ Common Models:
+#### **Common Models:**
 
 | Model | Description |
 |------|-------------|
 | Centralized | IT controls all cloud operations |
 | Shared | Platform team provides common services |
 | Decentralized | Individual teams manage workloads |
-
----
 
 #### 🧠 Insight
 
@@ -134,7 +132,7 @@ The operating model should align with organizational maturity.
 
 Planning must account for how teams will function post-adoption.
 
-#### ⚙️ Key Considerations:
+#### **Key Considerations:**
 
 - Role definitions  
 - Ownership boundaries  
@@ -151,7 +149,7 @@ Without organizational alignment, even well-designed architectures fail during e
 
 Cloud introduces a shift from CapEx to OpEx, requiring new financial controls.
 
-#### 💰 Key Areas:
+#### **Key Areas:**
 
 - Budgeting and forecasting  
 - Cost allocation (tagging)  
@@ -168,18 +166,16 @@ Cloud cost is not just a financial concern — it directly influences architectu
 
 The Plan phase sets the requirements for the Landing Zone (Ready phase).
 
-#### Defines:
+#### **Defines:**
+
 - Number of subscriptions  
 - Environment separation (Dev / Prod)  
 - Networking approach (Hub-Spoke, etc.)  
 - Governance requirements  
 
----
-
 #### 🔗 Connection
 
-The output of the Plan phase directly feeds into:
-> **Ready Phase (Landing Zone Design and Implementation)**
+The output of the Plan phase directly feeds into **Ready Phase (Landing Zone Design and Implementation)**
 
 ---
 
@@ -187,9 +183,7 @@ The output of the Plan phase directly feeds into:
 
 The Plan phase transforms strategy into a structured execution roadmap.
 
----
-
-### 📄 Key Outputs:
+### **Key Outputs:**
 
 - Application inventory and classification  
 - Migration strategy (6Rs)  
@@ -198,14 +192,11 @@ The Plan phase transforms strategy into a structured execution roadmap.
 - Operating model definition  
 - Cost and governance considerations  
 
-
-### 🧠 Key Insight
+### 🧠 **Key Insight**
 
 > Planning is not about creating a perfect roadmap — it is about reducing uncertainty and enabling controlled execution.
 
----
-
-## 🔍 Closing Thoughts
+## 🔍 **Closing Thoughts**
 
 The effectiveness of cloud adoption is heavily influenced by the quality of planning. 
 
