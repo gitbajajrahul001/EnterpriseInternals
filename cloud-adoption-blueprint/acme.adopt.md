@@ -163,4 +163,4 @@ This leads into the **Operate & Govern Phase**, where the environment is sustain
 
 ---
 
-[⬅ Back to Series Home](index.md) | [⬅ Back to ACME-Ready](acme-ready.md) | [Next: Acme-Govern ➡](acme-govern.md)
+[⬅ Back to Series Home](index.md) | [⬅ Back to ACME-Ready](acme-ready.md)
