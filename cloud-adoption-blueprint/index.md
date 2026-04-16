@@ -3,7 +3,7 @@ layout: default
 title: Architecting Enterprise Cloud Adoption
 ---
 
-# Strategy → Plan → Ready → Adopt
+# Strategy → Plan → Ready → Adopt → Operate & Govern
 
 ## 📚 Architecting Enterprise Cloud Adoption
 
@@ -21,6 +21,8 @@ Organizations often rely on external consulting partners to shape their cloud st
 
 
 ## 🧭 Journey Overview
+
+Cloud adoption progresses from defining direction to structuring execution, establishing a secure foundation, and ultimately enabling controlled workload migration and modernization.
 
 | Phase | Description | Link |
 |------|-------------|------|
