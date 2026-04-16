@@ -238,4 +238,4 @@ A well-managed Adopt phase ensures:
 - successful transition into steady-state operations  
 
 ---
-[⬅ Back to Series Home](index.md) | [⬅ Back to Ready-Consulting](ready-2.md) | [Next: Strategy-ACME ➡](acme-strategy.md)
+[⬅ Back to Series Home](index.md) | [⬅ Back to Ready-Consulting](ready-2.md) | [Next: ACME-Problem Statement ➡](acme-overview.md)

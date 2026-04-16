@@ -94,4 +94,4 @@ The engagement begins with the **Strategy Phase**, where initial assumptions are
 
 ---
 
-[⬅ Back to Series Home](index.md) | [Next: Acme-Strategy ➡](acme-strategy.md)
+[⬅ Back to Series Home](index.md) | [⬅ Back to Adopt-Consulting](adopt-2.md) | [Next: Acme-Strategy ➡](acme-strategy.md)
