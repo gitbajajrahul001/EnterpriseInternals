@@ -32,6 +32,7 @@ Cloud adoption progresses from defining direction to structuring execution, esta
 | Plan Phase – Foundations | Structuring the digital estate, application strategy (6Rs), dependencies, and migration sequencing | [Open](plan-1.md) |
 | Ready Phase – Foundations | Establishing the cloud foundation: resource hierarchy, IAM, networking, security, and governance | [Open](ready-1.md) |
 | Adopt Phase – Foundations | Executing workload migration and modernization with structured deployment, testing, and cutover strategies | [Open](adopt-1.md) |
+| Operate & Govern – Foundations | Ensure continuous compliance, optimization, and operational excellence| WIP |
 
 ---
 
@@ -46,6 +47,7 @@ With the foundation layer covered, it is time to build next layer of understandi
 | Plan Phase – Consulting Approach | Translating strategy into execution through assessments, prioritization, and migration planning | [Open](plan-2.md) |
 | Ready Phase – Consulting Approach | Implementing the landing zone with real-world trade-offs, governance enforcement, and design decisions | [Open](ready-2.md) |
 | Adopt Phase – Consulting Approach | Managing real-world migration challenges, trade-offs, stabilization, and operational integration | [Open](adopt-2.md) |
+| Operate & Govern – Foundations | Ensure continuous compliance, optimization, and operational excellence| WIP |
 
 ---
 
@@ -67,5 +69,6 @@ Rather than presenting ideal outcomes, this series focuses on:
 | ACME Corp – Plan Phase | Translating strategy into application-level decisions, dependency mapping, and compliance-driven planning | [Open](acme-plan.md) |
 | ACME Corp – Ready Phase | Designing and implementing the landing zone while balancing governance, security, and agility | [Open](acme-ready.md) |
 | ACME Corp – Adopt Phase | Executing migration and modernization, handling failures, and stabilizing workloads in cloud | [Open](acme-adopt.md) |
+| Operate & Govern – Foundations | Ensure continuous compliance, optimization, and operational excellence| WIP |
 
 ---
