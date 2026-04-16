@@ -28,6 +28,8 @@ Organizations often rely on external consulting partners to shape their cloud st
 | Strategy Phase – Consulting Approach | Applying strategy in real-world engagements and client discovery | [Open](strategy-2.md) |
 | Plan Phase – Foundations | Structuring the digital estate, application strategy (6Rs), dependencies, and migration sequencing | [Open](plan-1.md) |
 | Plan Phase – Consulting Approach | Translating strategy into execution through assessments, prioritization, and migration planning | [Open](plan-2.md) |
+| Ready Phase – Foundations | Establishing the cloud foundation: resource hierarchy, IAM, networking, security, and governance | [Open](ready-1.md) |
+| Ready Phase – Consulting Approach | Implementing the landing zone with real-world trade-offs, governance enforcement, and design decisions | [Open](ready-2.md) |
 
 
 ---
