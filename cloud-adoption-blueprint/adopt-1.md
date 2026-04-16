@@ -205,4 +205,4 @@ A well-executed adoption ensures:
 
 ---
 
-[⬅ Back to Series Home](index.md) | [⬅ Back to Ready-Foundations](ready-1.md) | [Next: Strategy–Consulting ➡](strategy-1.md)
+[⬅ Back to Series Home](index.md) | [⬅ Back to Ready-Foundations](ready-1.md) | [Next: Strategy–Consulting ➡](strategy-2.md)

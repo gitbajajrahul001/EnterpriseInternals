@@ -330,4 +330,4 @@ After the workshop, the following should be documented:
 
 ---
 
-[⬅ Back to Series Home](index.md) | [Next: Plan-Consulting ➡](plan-2.md)
+[⬅ Back to Series Home](index.md) | [⬅ Back to Adopt-Foundations](adopt-1.md) | [Next: Plan-Consulting ➡](plan-2.md)
