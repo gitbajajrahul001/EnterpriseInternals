@@ -3,9 +3,7 @@ layout: default
 title: Application Architecture in the Enterprise
 ---
 
-# Application Architecture in the Enterprise
-
-## 📚 Application Architecture in the Enterprise
+# 📚 Application Architecture in the Enterprise
 
 Application architecture is often discussed in terms of patterns such as monoliths, microservices, or event-driven systems. In enterprise environments, however, these patterns rarely exist in isolation or in their ideal form.
 
@@ -18,7 +16,7 @@ Each topic is covered in three layers:
 
 ---
 
-## 🧭 Architecture Journey (Mindset Building & Real-World Mapping)
+# 🧭 Architecture Journey (Mindset Building & Real-World Mapping)
 
 Application architecture is not a one-time design exercise — it is an evolving process that balances business needs, technical constraints, and operational realities.
 
