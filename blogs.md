@@ -29,7 +29,6 @@ These series are designed to help build an **end-to-end understanding of how ent
 
 <ul>
 <li><a href="cloud-adoption-blueprint">Architecting Enterprise Cloud Adoption</a></li>
-<li><a href="acme-overview">ACME Corp Case Study</a></li>
 </ul>
 </div>
 
