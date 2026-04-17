@@ -26,11 +26,8 @@ As implementation began, several real-world challenges emerged:
 
 **Conflict Between Governance and Agility**
 
-- Application teams expected rapid provisioning  
-  *(e.g., spinning up environments on demand for development)*  
-
-- Platform team enforced strict controls  
-  *(e.g., approval workflows, restricted regions, limited access)*  
+- Application teams expected rapid provisioning (e.g., spinning up environments on demand for development)
+- Platform team enforced strict controls (e.g., approval workflows, restricted regions, limited access)
 
 👉 Result:
 - Delays in onboarding workloads  
@@ -61,8 +58,7 @@ As implementation began, several real-world challenges emerged:
 
 **Policy Enforcement Challenges**
 
-- Policies defined during Plan phase  
-  *(e.g., deny public IP, enforce tagging)*  
+- Policies defined during Plan phase (e.g., deny public IP, enforce tagging)
 
 - Reality:
   - Policies blocking deployments  
