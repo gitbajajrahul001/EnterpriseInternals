@@ -22,7 +22,7 @@ Application architecture is not a one-time design exercise — it is an evolving
 
 | Layer | Description | Link |
 |------|-------------|------|
-| Foundations | Understanding architecture patterns, evolution, and core design principles | [Open](app-arch-foundation.md) |
+| Foundation | Understanding architecture patterns, evolution, and core design principles | [Open](app-arch-foundation.md) |
 | Consulting Approach | Real-world decision-making, trade-offs, and common failure patterns | [Open](app-arch-consulting.md) |
 | Case Study | Application architecture decisions in practice through ACME Corp transformation | [Open](app-arch-acme.md) |
 
