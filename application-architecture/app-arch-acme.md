@@ -219,6 +219,7 @@ API Layer
 --------------------------
      ↓
 Event Layer (Selective)
+```
 
 ## 🔗 Impact on Other Domains
 
