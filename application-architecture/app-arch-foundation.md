@@ -248,6 +248,7 @@ Understanding application architecture is not about memorizing patterns, but abo
 
 > Good architecture is not about perfection — it is about making the right compromises.
 
+
 ---
 
-[Next: Application Architecture – Consulting Approach ➡]
+[⬅ Back to Series Home](index.md) | [Next: Application Architecture-Consulting ➡](app-arch-consulting.md)
