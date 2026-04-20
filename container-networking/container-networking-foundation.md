@@ -93,7 +93,10 @@ At this point, they exist, but they are not connected to each other.
 **What to understand**
 
 This is the first important lesson *Isolation comes first. Connectivity comes later.* If you stop here, the namespaces cannot communicate, because no interfaces or routes exist between them.
+
+
 ---
+
 ### **Step 2: Create a veth Pair**
 
 ```text
@@ -114,7 +117,9 @@ These two interfaces are linked together internally by the Linux kernel.
 This is not just an interface. It is a connected pair. If traffic enters veth-ns1, it can exit through veth-ns2, and vice versa.
 
 At this stage, both interfaces still exist in the host namespace, not yet inside ns1 or ns2.
+
 ---
+
 ### **Step 3: Move Each End into a Namespace**
 
 ```text
@@ -140,7 +145,9 @@ veth-ns1  <=======>  veth-ns2
 ```
 
 This is the point where the namespaces now have a physical path between them, but they still do not have IP addresses yet.
+
 ---
+
 ### **Step 4: Assign IP Addresses**
 
 ```text
@@ -158,7 +165,9 @@ This assigns IP addresses to the interfaces inside the namespaces:
 **What to understand**
 
 An important clarification here *IP addresses belong to interfaces, not directly to containers or processes.* So when people say "a container has an IP," what they usually mean is *the network interface inside that container's namespace has an IP*. That distinction is important because it explains why multiple processes inside the same namespace can share the same network identity.
+
 ---
+
 ### **Step 5: Bring the Interfaces Up**
 
 ```text
@@ -175,7 +184,9 @@ This enables the interfaces. By default, newly created interfaces are typically 
 **What to understand**
 
 Without this step, even correctly addressed interfaces still will not communicate. This is similar to a cable being present but the interface itself being administratively down.
+
 ---
+
 ### **Step 6: Test Connectivity**
 
 ```text
@@ -196,7 +207,9 @@ If this works, Linux has successfully done all of the following:
 - received the reply back
     
 This proves that the two isolated network namespaces are now able to communicate.
+
 ---
+
 ### Important Concept: What Does exec Mean Here?
 
 In commands like this:
@@ -204,7 +217,9 @@ In commands like this:
 sudo ip netns exec ns1 ping 10.0.0.2
 ```
 the word exec means *run this command inside the given namespace*. So this does not permanently move your shell into ns1. It simply runs one command using the network context of ns1. This is why the command behaves as though it is originating from inside that namespace.
+
 ---
+
 ### **Step 7: Inspect the Interfaces**
 
  sudo ip netns exec ns1 ip link
@@ -226,7 +241,9 @@ That pairing is what makes the veth link work.
 **What to understand**
 
 This confirms the core idea *a veth pair acts like a two-ended virtual Ethernet cable*
+
 ---
+
 ### **Step 8: Check the Routing Table**
 
 ```text
@@ -247,14 +264,15 @@ sudo ip netns exec ns2 ip route   `
 - scope link means the destination is directly reachable on that link
     
 - src 10.0.0.1 is the preferred source IP for this route
-    
 
 **What to understand**
 
 This is a critical point. Even though the two namespaces are in the same subnet, Linux still makes a routing decision. In a Linux system, the kernel checks the routing table to determine which interface should be used. So although this feels similar to same-subnet switching in traditional networks, the Linux kernel is still using routing logic to decide packet delivery.
 
 A precise way to say it is *The Linux kernel makes a routing decision and then uses neighbor resolution to deliver the packet directly on the connected link.*
+
 ---
+
 ### **Step 9: Check the ARP or Neighbor Table**
 
 ```text
@@ -281,7 +299,9 @@ This means:
 - the first communication may require ARP resolution
     
 - repeated communication does not need repeated broadcast, because the result is cached. That is why ARP is still important, even in a virtual network built on one machine.
+
 ---
+
 ### **Step 10: Observe Live Traffic**
 
 In one terminal: *sudo ip netns exec ns2 tcpdump -i veth-ns2*
@@ -321,6 +341,7 @@ A simplified sequence looks like this:
 >
 
 ---
+
 ## Why This Lab Matters for Containers and Kubernetes
 
 This lab is small, but the ideas are foundational.
@@ -388,6 +409,7 @@ sudo ip netns exec ns2 ip neigh
 
 sudo ip netns exec ns2 tcpdump -i veth-ns2
 ```
+
 ---
 
 [⬅ Back to Series Home](index.md) |
