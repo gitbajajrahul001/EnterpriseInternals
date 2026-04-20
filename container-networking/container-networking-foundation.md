@@ -75,7 +75,7 @@ Here:
     
 
 ### Step 1: Create Two Network Namespaces
-
+----------------------------------------
 ```text
 sudo ip netns add ns1
 sudo ip netns add ns2
@@ -95,7 +95,7 @@ At this point, they exist, but they are not connected to each other.
 This is the first important lesson *Isolation comes first. Connectivity comes later.* If you stop here, the namespaces cannot communicate, because no interfaces or routes exist between them.
 
 ### Step 2: Create a veth Pair
-
+-------------------------------
 ```text
 sudo ip link add veth-ns1 type veth peer name veth-ns2
 ```
@@ -116,7 +116,7 @@ This is not just an interface. It is a connected pair. If traffic enters veth-ns
 At this stage, both interfaces still exist in the host namespace, not yet inside ns1 or ns2.
 
 ### Step 3: Move Each End into a Namespace
-
+----------------------------------------
 ```text
 sudo ip link set veth-ns1 netns ns1
 sudo ip link set veth-ns2 netns ns2   `
@@ -142,7 +142,8 @@ veth-ns1  <=======>  veth-ns2
 This is the point where the namespaces now have a physical path between them, but they still do not have IP addresses yet.
 
 ### Step 4: Assign IP Addresses
-'''text
+-------------------------------
+```text
  sudo ip netns exec ns1 ip addr add 10.0.0.1/24 dev veth-ns1
  sudo ip netns exec ns2 ip addr add 10.0.0.2/24 dev veth-ns2
 ```
@@ -150,7 +151,7 @@ This is the point where the namespaces now have a physical path between them, bu
 
 This assigns IP addresses to the interfaces inside the namespaces:
 
-- ns1 gets 10.0.0.1/24    
+- ns1 gets 10.0.0.1/24
 - ns2 gets 10.0.0.2/24
     
 
@@ -159,8 +160,8 @@ This assigns IP addresses to the interfaces inside the namespaces:
 An important clarification here *IP addresses belong to interfaces, not directly to containers or processes.* So when people say "a container has an IP," what they usually mean is *the network interface inside that container's namespace has an IP*. That distinction is important because it explains why multiple processes inside the same namespace can share the same network identity.
 
 ### Step 5: Bring the Interfaces Up
-
- ```text
+------------------------------------
+```text
 sudo ip netns exec ns1 ip link set veth-ns1 up
 sudo ip netns exec ns2 ip link set veth-ns2 up
 sudo ip netns exec ns1 ip link set lo up
@@ -176,7 +177,7 @@ This enables the interfaces. By default, newly created interfaces are typically 
 Without this step, even correctly addressed interfaces still will not communicate. This is similar to a cable being present but the interface itself being administratively down.
 
 ### Step 6: Test Connectivity
-
+------------------------------
 ```text
 sudo ip netns exec ns1 ping 10.0.0.2
 ```
@@ -205,7 +206,7 @@ sudo ip netns exec ns1 ping 10.0.0.2
 the word exec means *run this command inside the given namespace*. So this does not permanently move your shell into ns1. It simply runs one command using the network context of ns1. This is why the command behaves as though it is originating from inside that namespace.
 
 ### Step 7: Inspect the Interfaces
-
+-----------------------------------
  sudo ip netns exec ns1 ip link
  sudo ip netns exec ns2 ip link
 
@@ -226,7 +227,8 @@ That pairing is what makes the veth link work.
 
 This confirms the core idea *a veth pair acts like a two-ended virtual Ethernet cable*
 
-Step 8: Check the Routing Table
+### Step 8: Check the Routing Table
+------------------------------------
 ```text
 sudo ip netns exec ns1 ip route
 sudo ip netns exec ns2 ip route   `
@@ -254,7 +256,7 @@ This is a critical point. Even though the two namespaces are in the same subnet,
 A precise way to say it is *The Linux kernel makes a routing decision and then uses neighbor resolution to deliver the packet directly on the connected link.*
 
 ### Step 9: Check the ARP or Neighbor Table
-
+-------------------------------------------
 ```text
 sudo ip netns exec ns1 ip neigh
 sudo ip netns exec ns2 ip neigh
@@ -281,7 +283,7 @@ This means:
 - repeated communication does not need repeated broadcast, because the result is cached. That is why ARP is still important, even in a virtual network built on one machine.
 
 ### Step 10: Observe Live Traffic
-
+---------------------------------
 In one terminal: *sudo ip netns exec ns2 tcpdump -i veth-ns2*
 
 In another terminal: *sudo ip netns exec ns1 ping 10.0.0.2*
@@ -295,7 +297,7 @@ This lets you watch packets arrive live on the interface inside ns2.
 This is one of the most useful observations in the lab. It proves that this is not an abstract or logical-only model. Actual packets are being sent and received through Linux networking constructs.
 
 ### What Happens Internally When ns1 Pings ns2
-
+----------------------------------------------
 A simplified sequence looks like this:
 
 1.  ns1 wants to reach 10.0.0.2
@@ -320,7 +322,7 @@ A simplified sequence looks like this:
 
 
 ## Why This Lab Matters for Containers and Kubernetes
-
+-----------------------------------------------------
 This lab is small, but the ideas are foundational.
 
 In Linux-based container platforms:
