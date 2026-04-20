@@ -20,4 +20,4 @@ Through this platform, I aim to bridge that gap with a collection of structured 
 - ☁️ [Architecting Enterprise Cloud Adoption](cloud-adoption-blueprint)
 - 🧱 [Application Architecture in the Enterprise](application-architecture)
 - 🌐 [Network Architecture in the Enterprise](network-architecture)
-- 🌐 [Container Networking Architecture in the Enterprise](container-networking)
+- 🔗 [Container Networking Architecture in the Enterprise](container-networking)
