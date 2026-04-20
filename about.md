@@ -1,14 +1,18 @@
+---
+layout: default
+title: About Me
+---
 # About Me
 
 My name is Rahul Bajaj. I work at the intersection of **enterprise architecture, cloud transformation, and platform engineering**, with over 17 years of experience helping large organizations design and evolve their technology landscape.
 
-Over the years, I’ve worked across Pharma, Banking, Manufacturing, and Energy sectors, partnering with global enterprises on initiatives ranging from **cloud adoption and platform engineering to large-scale infrastructure modernization**.
+Over the years, I’ve worked across Pharma, Banking, Manufacturing, and Energy sectors, partnering with global enterprises on initiatives ranging from cloud adoption and platform engineering to large-scale infrastructure modernization.
 
 ---
 
 ## 🧭 What I Really Do
 
-At a high level, my work focuses on one core problem *How do you move from fragmented IT environments to structured, scalable, and operable enterprise platforms?*
+At a high level, my work focuses on one core problem - *How do you move from fragmented IT environments to structured, scalable, and operable enterprise platforms?*
 
 This involves:
 - translating business objectives into architectural decisions  
