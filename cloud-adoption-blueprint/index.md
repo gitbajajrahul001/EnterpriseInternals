@@ -69,6 +69,6 @@ Rather than presenting ideal outcomes, this series focuses on:
 | ACME Corp – Plan Phase | Translating strategy into application-level decisions, dependency mapping, and compliance-driven planning | [Open](acme-plan.md) |
 | ACME Corp – Ready Phase | Designing and implementing the landing zone while balancing governance, security, and agility | [Open](acme-ready.md) |
 | ACME Corp – Adopt Phase | Executing migration and modernization, handling failures, and stabilizing workloads in cloud | [Open](acme-adopt.md) |
-| Operate & Govern – Foundations | Ensure continuous compliance, optimization, and operational excellence| WIP |
+| Operate & Govern – Foundations | Ensure continuous compliance, optimization, and operational excellence| [Coming Soon]() |
 
 ---
