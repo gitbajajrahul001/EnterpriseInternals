@@ -30,7 +30,7 @@ Most enterprise networks are not designed from scratch. They evolve over time an
 - Security controls layered over time   *(e.g., firewalls, proxies, VPNs)*  
 
 >
-> **Key Insight** - Enterprise networks are rarely clean topologies — they are the result of years of expansion, exceptions, and layered controls.
+> Enterprise networks are rarely clean topologies — they are the result of years of expansion, exceptions, and layered controls.
 >
 ---
 
@@ -117,7 +117,7 @@ The network should be understandable and supportable.
 
 
 >
-> **Key Insight** - Good network architecture is not the most complex one — it is the one that provides clear boundaries with manageable operations.
+> Good network architecture is not the most complex one — it is the one that provides clear boundaries with manageable operations.
 >
 
 ---
@@ -189,7 +189,7 @@ Cloud environments connect back to on-prem networks.
 - overlapping IP ranges  
 
 >
-> **Key Insight** - Most enterprises operate multiple network patterns at once — not because it is ideal, but because different workloads and maturity levels require different approaches.
+> Most enterprises operate multiple network patterns at once — not because it is ideal, but because different workloads and maturity levels require different approaches.
 >
 
 ---
@@ -255,7 +255,7 @@ Network architecture must align with who manages it.
 - workload teams consuming standardized network patterns  
 
 >
-> **Key Insight** - Network problems are often less about technology and more about unclear boundaries, ownership, and design discipline.
+> Network problems are often less about technology and more about unclear boundaries, ownership, and design discipline.
 >
 
 ---
@@ -292,7 +292,7 @@ A working network can still be:
 - operationally fragile  
 
 >
-> **Key Insight** - A functioning network is not necessarily a well-architected network.
+> A functioning network is not necessarily a well-architected network.
 >
 
 ---
@@ -314,7 +314,7 @@ Network architecture directly impacts:
 - **Resilience / BCP**    *(e.g., regional connectivity, failover paths, hybrid continuity)*  
 
 >
-> **Key Insight** - Poor network architecture amplifies complexity across every other architecture domain.
+> Poor network architecture amplifies complexity across every other architecture domain.
 >
 ---
 
@@ -329,7 +329,7 @@ Understanding network architecture is not about memorizing topologies, but about
 - balancing control with simplicity  
 
 >
-> **Key Insight** - A Strong network architecture enables systems to communicate safely, predictably, and at scale.
+> A Strong network architecture enables systems to communicate safely, predictably, and at scale.
 >
 
 ---

@@ -30,7 +30,7 @@ At the start of the Ready phase, the network vision was *Implement a centralized
 - Limited consideration for application-specific communication patterns  
 
 >
-> **Key Insight** - The initial design optimized for control, not for application behavior.
+> The initial design optimized for control, not for application behavior.
 >
 ---
 
@@ -78,7 +78,7 @@ As workloads began onboarding, several realities emerged:
 - Blocking VNet peering and hybrid connectivity  
 
 >
-> **Key Insight** - The network design did not fail — it exposed gaps between planned segmentation and actual communication needs.
+> The network design did not fail — it exposed gaps between planned segmentation and actual communication needs.
 >
 
 ---
@@ -168,7 +168,7 @@ Instead of rigid enforcement:
 | Network issues are easy to diagnose | Requires strong observability |
 
 >
-> **Key Insight** - Network architecture evolved from a centralized control model to a **balanced, context-aware design**
+> Network architecture evolved from a centralized control model to a **balanced, context-aware design**
 >
 
 ---
@@ -223,7 +223,7 @@ These network decisions directly influenced:
 - **Resilience / BCP**  *(e.g., hybrid failover paths and regional connectivity)*  
 
 >
-> **Key Insight** - Network architecture is not static — it evolves continuously as application needs, security requirements, and operational realities change.
+> Network architecture is not static — it evolves continuously as application needs, security requirements, and operational realities change.
 >
 
 ---

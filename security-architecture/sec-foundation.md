@@ -17,33 +17,29 @@ In enterprise environments, however, security is not a layer added on top of sys
 
 ## 🧱 The Reality of Enterprise Security
 
-Most enterprise environments are not designed with security from day one. Instead, they evolve over time and typically include:
-
-- Legacy perimeter-based security  
-  *(e.g., firewalls protecting internal networks)*  
-
-- Identity systems added later  
-  *(e.g., centralized authentication and access control)*  
-
-- Fragmented security controls  
-  *(e.g., different tools across environments and regions)*  
-
-- Reactive security practices  
-  *(e.g., controls introduced after incidents or audits)*  
-
 ---
 
-### 🧠 Insight
+Most enterprise environments are not designed with security from day one. Instead, they evolve over time and typically include:
 
+- Legacy perimeter-based security  *(e.g., firewalls protecting internal networks)*  
+
+- Identity systems added later  *(e.g., centralized authentication and access control)*  
+
+- Fragmented security controls  *(e.g., different tools across environments and regions)*  
+
+- Reactive security practices  *(e.g., controls introduced after incidents or audits)*  
+
+>
 > Enterprise security is rarely unified — it is an accumulation of controls built over time.
+>
 
 ---
 
 ## 🔷 Evolution of Security Architecture
 
-Security architecture has evolved significantly with cloud and distributed systems.
-
 ---
+
+Security architecture has evolved significantly with cloud and distributed systems.
 
 ### **Stage 1: Perimeter-Based Security**
 
@@ -51,9 +47,8 @@ Security architecture has evolved significantly with cloud and distributed syste
 - Protection at the boundary  
 
 **Example:**
-- Firewall protecting internal data center  
 
----
+- Firewall protecting internal data center  
 
 ### **Stage 2: Network Segmentation**
 
@@ -61,9 +56,8 @@ Security architecture has evolved significantly with cloud and distributed syste
 - Reduced lateral movement  
 
 **Example:**
-- Separate networks for production and non-production  
 
----
+- Separate networks for production and non-production  
 
 ### **Stage 3: Identity-Centric Security**
 
@@ -71,10 +65,9 @@ Security architecture has evolved significantly with cloud and distributed syste
 - Strong authentication and authorization  
 
 **Example:**
+
 - Role-based access control (RBAC)  
 - Multi-factor authentication (MFA)  
-
----
 
 ### **Stage 4: Zero Trust (Context-Aware Security)**
 
@@ -82,183 +75,170 @@ Security architecture has evolved significantly with cloud and distributed syste
 - Continuous verification  
 
 **Example:**
+
 - Conditional access based on device, location, and risk  
 - Micro-segmentation and identity-based access  
 
----
-
-### 🧠 Insight
-
+>
 > Security evolution is not linear — enterprises often operate across multiple models simultaneously.
+>
 
 ---
 
 ## 🔷 Core Security Principles
 
-Security architecture is driven by a few fundamental principles.
-
 ---
+
+Security architecture is driven by a few fundamental principles.
 
 ### **1. Least Privilege**
 
 Only required access is granted.
 
 **Examples:**
+
 - Application accessing only required database tables  
 - Users assigned minimal roles  
-
----
 
 ### **2. Defense in Depth**
 
 Multiple layers of protection.
 
 **Examples:**
-- Identity controls + network segmentation + encryption  
 
----
+- Identity controls + network segmentation + encryption  
 
 ### **3. Zero Trust**
 
 Never trust, always verify.
 
 **Examples:**
-- Every request validated based on identity and context  
 
----
+- Every request validated based on identity and context  
 
 ### **4. Assume Breach**
 
 Design systems assuming compromise is possible.
 
 **Examples:**
+
 - Monitoring for suspicious activity  
 - Rapid containment mechanisms  
 
----
-
-### 🧠 Insight
-
+>
 > Strong security is not about preventing every attack — it is about limiting impact and enabling recovery.
+>
 
 ---
 
 ## 🔷 Key Security Domains
 
-Security architecture spans multiple domains that must work together.
-
 ---
+
+Security architecture spans multiple domains that must work together.
 
 ### **1. Identity & Access Management (IAM)**
 
 Controls who can access what.
 
 **Examples:**
+
 - RBAC for cloud resources  
 - Conditional access for users  
 - Managed identities for applications  
-
----
 
 ### **2. Network Security**
 
 Controls how systems communicate.
 
 **Examples:**
+
 - Private endpoints  
 - Firewall rules  
 - Network segmentation  
-
----
 
 ### **3. Data Security**
 
 Protects data at rest and in transit.
 
 **Examples:**
+
 - Encryption  
 - Key management  
 - Data classification  
-
----
 
 ### **4. Application Security**
 
 Ensures applications are secure by design.
 
 **Examples:**
+
 - Secure APIs  
 - Input validation  
 - Dependency management  
-
----
 
 ### **5. Monitoring & Threat Detection**
 
 Provides visibility into security events.
 
 **Examples:**
+
 - Log collection  
 - Threat detection systems  
 - Security analytics  
 
----
-
-### 🧠 Insight
-
+>
 > Security is not a single domain — it is the integration of multiple controls working together.
+>
 
 ---
 
 ## 🔷 Key Design Considerations
 
-Security decisions are influenced by several factors.
-
 ---
+
+Security decisions are influenced by several factors.
 
 ### **1. Business and Compliance Requirements**
 
 Different industries have different expectations.
 
 **Examples:**
+
 - Financial systems requiring strong auditability  
 - Healthcare systems requiring data protection  
-
----
 
 ### **2. Application Architecture**
 
 Security must align with how applications are designed.
 
 **Examples:**
+
 - Microservices requiring identity-based communication  
 - APIs requiring authentication and authorization  
 
----
 
 ### **3. Network Architecture**
 
 Security must align with connectivity models.
 
 **Examples:**
+
 - Segmentation based on trust boundaries  
 - Private vs public access paths  
-
----
 
 ### **4. Operational Maturity**
 
 Security must be manageable.
 
 **Examples:**
+
 - Teams capable of handling alerts  
 - Defined incident response processes  
 
----
-
-### 🧠 Insight
-
+>
 > Security design must balance protection with operational feasibility.
+>
 
 ---
 
@@ -266,64 +246,53 @@ Security must be manageable.
 
 ---
 
-### ❌ “Security is a separate layer”
+### **Security is a separate layer**
 
 Security is embedded across architecture, not added later.
 
----
-
-### ❌ “More tools means better security”
+### **More tools means better security**
 
 Tool sprawl often increases complexity without improving outcomes.
 
----
-
-### ❌ “Zero Trust is a product”
+### **Zero Trust is a product**
 
 Zero Trust is an architectural approach, not a solution you can buy.
 
----
-
-### ❌ “Strong security slows down delivery”
+### **Strong security slows down delivery**
 
 Poorly designed security slows delivery — well-designed security enables it.
 
----
-
-### 🧠 Insight
-
+>
 > Security failures are often due to poor design, not lack of tools.
+>
 
 ---
 
 ## 🔗 Connection to Other Domains
 
-Security architecture directly impacts:
-
-- **Application Architecture**  
-  *(e.g., authentication, authorization, secure APIs)*  
-
-- **Network Architecture**  
-  *(e.g., segmentation, controlled communication paths)*  
-
-- **Platform Engineering**  
-  *(e.g., identity integration, policy enforcement, IaC controls)*  
-
-- **Observability**  
-  *(e.g., security monitoring, anomaly detection)*  
-
-- **Resilience / BCP**  
-  *(e.g., incident response, recovery mechanisms)*  
-
 ---
 
-### 🧠 Key Insight
+Security architecture directly impacts:
 
+- **Application Architecture**  *(e.g., authentication, authorization, secure APIs)*  
+
+- **Network Architecture**  *(e.g., segmentation, controlled communication paths)*  
+
+- **Platform Engineering**  *(e.g., identity integration, policy enforcement, IaC controls)*  
+
+- **Observability**  *(e.g., security monitoring, anomaly detection)*  
+
+- **Resilience / BCP**  *(e.g., incident response, recovery mechanisms)*  
+
+>
 > Security decisions influence every other architectural domain — weak security design amplifies risk across the system.
+>
 
 ---
 
 ## 🔍 Closing Thoughts
+
+---
 
 Understanding security architecture is not about learning tools or controls, but about:
 
@@ -331,9 +300,9 @@ Understanding security architecture is not about learning tools or controls, but
 - controlling access intelligently  
 - designing systems to handle risk  
 
----
-
+>
 > The goal of security architecture is not to eliminate risk, but to manage it effectively.
+>
 
 ---
 

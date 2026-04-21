@@ -24,7 +24,7 @@ In real-world engagements, network architecture is not designed purely based on 
 - what the teams can realistically manage  
 
 >
-> **Key Insight** - The best network design is rarely the most elegant — it is the one that balances control, simplicity, and operational feasibility.
+> The best network design is rarely the most elegant — it is the one that balances control, simplicity, and operational feasibility.
 >
 
 ---
@@ -60,7 +60,7 @@ In real-world engagements, network architecture is not designed purely based on 
 - Applying hub-and-spoke uniformly across all workloads  
 
 >
-> **Key Insight** - Centralization improves control, but often reduces agility and performance.
+> Centralization improves control, but often reduces agility and performance.
 >
 
 ---
@@ -95,7 +95,7 @@ In real-world engagements, network architecture is not designed purely based on 
 - Over-segmentation without understanding application flows  
 
 >
-> **Key Insight** - Segmentation without understanding traffic flows creates operational friction.
+> Segmentation without understanding traffic flows creates operational friction.
 >
 
 ---
@@ -129,7 +129,7 @@ In real-world engagements, network architecture is not designed purely based on 
 - Assuming hybrid connectivity is a temporary phase  
 
 >
-> **Key Insight** - Hybrid often becomes long-term reality, not a transition state.
+> Hybrid often becomes long-term reality, not a transition state.
 >
 
 ---
@@ -163,7 +163,7 @@ In real-world engagements, network architecture is not designed purely based on 
 - Ignoring IP planning during early stages  
 
 >
-> **Key Insight** - Poor IP planning becomes a long-term constraint that is difficult to fix later.
+> Poor IP planning becomes a long-term constraint that is difficult to fix later.
 >
 
 ---
@@ -203,7 +203,7 @@ In real-world engagements, network architecture is not designed purely based on 
 
 
 >
-> **Key Insight** - Security must be embedded into design — not enforced as a barrier.
+> Security must be embedded into design — not enforced as a barrier.
 >
 
 ---
@@ -239,7 +239,7 @@ In real-world engagements, network architecture is not designed purely based on 
 - Over-centralization without scaling the team  
 
 >
-> **Key Insight** - Ownership models shape how effective network architecture is in practice.
+> Ownership models shape how effective network architecture is in practice.
 >
 
 ---
@@ -272,7 +272,7 @@ In real-world engagements, network architecture is not designed purely based on 
 - Designing networks without observability in mind  
 
 >
-> **Key Insight** - A network you cannot observe is a network you cannot operate effectively.
+> A network you cannot observe is a network you cannot operate effectively.
 >
 
 ---
@@ -302,7 +302,7 @@ In real-world engagements, network architecture is not designed purely based on 
 - Troubleshooting becomes difficult  
 
 >
-> **Key Insight** - Network decisions amplify across all domains — a poor design choice becomes a system-wide constraint.
+> Network decisions amplify across all domains — a poor design choice becomes a system-wide constraint.
 >
 
 ---
