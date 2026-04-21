@@ -27,12 +27,9 @@ Most enterprise networks are not designed from scratch. They evolve over time an
 
 - Security controls layered over time   *(e.g., firewalls, proxies, VPNs)*  
 
----
-
-### 🧠 Insight
-
-> Enterprise networks are rarely clean topologies — they are the result of years of expansion, exceptions, and layered controls.
-
+>
+> **Key Insight** - Enterprise networks are rarely clean topologies — they are the result of years of expansion, exceptions, and layered controls.
+>
 ---
 
 ## 🔷 Why Network Architecture Matters
@@ -60,6 +57,7 @@ This means network design must support **different trust boundaries within the s
 ## 🔷 Core Network Design Goals
 
 Enterprise network architecture is typically designed to achieve a balance between Connectivity,Segmentation,Security,Scalability, and Operational Clarity
+
 ---
 
 ### **1. Connectivity**
@@ -109,11 +107,10 @@ The network should be understandable and supportable.
 - Standardized address allocation  
 - Defined ingress and egress paths  
 
----
 
-### 🧠 Insight
-
-> Good network architecture is not the most complex one — it is the one that provides clear boundaries with manageable operations.
+>
+> **Key Insight** - Good network architecture is not the most complex one — it is the one that provides clear boundaries with manageable operations.
+>
 
 ---
 
@@ -182,11 +179,9 @@ Cloud environments connect back to on-prem networks.
 - latency and routing constraints  
 - overlapping IP ranges  
 
----
-
-### 🧠 Insight
-
-> Most enterprises operate multiple network patterns at once — not because it is ideal, but because different workloads and maturity levels require different approaches.
+>
+> **Key Insight** - Most enterprises operate multiple network patterns at once — not because it is ideal, but because different workloads and maturity levels require different approaches.
+>
 
 ---
 
@@ -243,11 +238,9 @@ Network architecture must align with who manages it.
 - platform team managing cloud connectivity  
 - workload teams consuming standardized network patterns  
 
----
-
-### 🧠 Insight
-
-> Network problems are often less about technology and more about unclear boundaries, ownership, and design discipline.
+>
+> **Key Insight** - Network problems are often less about technology and more about unclear boundaries, ownership, and design discipline.
+>
 
 ---
 
@@ -280,11 +273,9 @@ A working network can still be:
 - hard to scale  
 - operationally fragile  
 
----
-
-### 🧠 Insight
-
-> A functioning network is not necessarily a well-architected network.
+>
+> **Key Insight** - A functioning network is not necessarily a well-architected network.
+>
 
 ---
 
@@ -302,12 +293,9 @@ Network architecture directly impacts:
 
 - **Resilience / BCP**    *(e.g., regional connectivity, failover paths, hybrid continuity)*  
 
----
-
-### 🧠 Key Insight
-
-> Poor network architecture amplifies complexity across every other architecture domain.
-
+>
+> **Key Insight** - Poor network architecture amplifies complexity across every other architecture domain.
+>
 ---
 
 ## 🔍 Closing Thoughts
@@ -318,8 +306,9 @@ Understanding network architecture is not about memorizing topologies, but about
 - defining trust boundaries  
 - balancing control with simplicity  
 
-**A Strong network architecture enables systems to communicate safely, predictably, and at scale.**
-
+>
+> **Key Insight** - A Strong network architecture enables systems to communicate safely, predictably, and at scale.**
+>
 
 ---
 
