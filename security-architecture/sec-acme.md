@@ -32,8 +32,11 @@ At the start of the Ready phase, the security vision was: *Implement Zero Trust 
 >
 > The initial design optimized for control and compliance, not for operational feasibility.
 >
+
 ---
+
 ## 🔷 2. What We Discovered
+
 ---
 
 As workloads began onboarding, several realities emerged:
