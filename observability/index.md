@@ -3,9 +3,8 @@ layout: default
 title: Observability in the Enterprise
 ---
 
-# Observability in the Enterprise
 
-## 📚 Observability in the Enterprise
+# 📚 Observability in the Enterprise
 
 Observability is often approached as a set of tools for monitoring systems — dashboards, alerts, and logs.
 

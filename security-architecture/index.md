@@ -3,9 +3,7 @@ layout: default
 title: Security Architecture in the Enterprise
 ---
 
-# Security Architecture in the Enterprise
-
-## 📚 Security Architecture in the Enterprise
+# 📚 Security Architecture in the Enterprise
 
 Security in enterprise environments is often approached as a collection of controls — firewalls, identity systems, encryption, and compliance frameworks.
 
