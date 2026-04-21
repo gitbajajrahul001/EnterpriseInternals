@@ -21,7 +21,7 @@ However, these decisions were still conceptual and had not yet been validated ag
 
 ---
 
-At the start of the Ready phase, the security vision was: *Implement Zero Trust with strict IAM, network isolation, and full compliance enforcement*
+At the start of the Ready phase, the security vision was *Implement Zero Trust with strict IAM, network isolation, and full compliance enforcement*
 
 ### **Observations**
 
