@@ -23,7 +23,7 @@ However, these decisions were still conceptual and had not yet been validated ag
 
 At the start of the Ready phase, the security vision was: *Implement Zero Trust with strict IAM, network isolation, and full compliance enforcement*
 
-### Observations
+### **Observations**
 
 - Strong focus on compliance and control  
 - Assumption that identity-based access could be enforced everywhere  
@@ -32,8 +32,9 @@ At the start of the Ready phase, the security vision was: *Implement Zero Trust 
 >
 > The initial design optimized for control and compliance, not for operational feasibility.
 >
-
+---
 ## 🔷 2. What We Discovered
+---
 
 As workloads began onboarding, several realities emerged:
 

@@ -46,7 +46,7 @@ Security architecture has evolved significantly with cloud and distributed syste
 - Trust inside the network  
 - Protection at the boundary  
 
-**Example:**
+**Examples:**
 
 - Firewall protecting internal data center  
 
@@ -55,7 +55,7 @@ Security architecture has evolved significantly with cloud and distributed syste
 - Controlled communication between zones  
 - Reduced lateral movement  
 
-**Example:**
+**Examples:**
 
 - Separate networks for production and non-production  
 
@@ -64,7 +64,7 @@ Security architecture has evolved significantly with cloud and distributed syste
 - Access based on identity, not location  
 - Strong authentication and authorization  
 
-**Example:**
+**Examples:**
 
 - Role-based access control (RBAC)  
 - Multi-factor authentication (MFA)  
@@ -74,7 +74,7 @@ Security architecture has evolved significantly with cloud and distributed syste
 - No implicit trust  
 - Continuous verification  
 
-**Example:**
+**Examples:**
 
 - Conditional access based on device, location, and risk  
 - Micro-segmentation and identity-based access  
