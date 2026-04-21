@@ -34,6 +34,8 @@ Most enterprise networks are not designed from scratch. They evolve over time an
 
 ## 🔷 Why Network Architecture Matters
 
+---
+
 Network architecture directly influences:
 
 - application communication patterns  
@@ -56,9 +58,9 @@ This means network design must support **different trust boundaries within the s
 
 ## 🔷 Core Network Design Goals
 
-Enterprise network architecture is typically designed to achieve a balance between Connectivity,Segmentation,Security,Scalability, and Operational Clarity
-
 ---
+
+Enterprise network architecture is typically designed to achieve a balance between Connectivity, Segmentation, Security, Scalability, and Operational Clarity
 
 ### **1. Connectivity**
 
@@ -116,9 +118,9 @@ The network should be understandable and supportable.
 
 ## 🔷 Common Enterprise Network Patterns
 
-Patterns should be understood in terms of **when and why they are used**, not just what they look like.
-
 ---
+
+Patterns should be understood in terms of **when and why they are used**, not just what they look like.
 
 ### **1. Flat Network**
 
@@ -164,7 +166,6 @@ Spokes or services communicate more directly without heavy centralization.
 - governance becomes harder  
 - routing and security complexity increases  
 
----
 
 ### **4. Hybrid Connectivity**
 
@@ -186,6 +187,8 @@ Cloud environments connect back to on-prem networks.
 ---
 
 ## 🔷 Key Design Considerations
+
+---
 
 Network decisions are typically shaped by several factors.
 
@@ -246,6 +249,8 @@ Network architecture must align with who manages it.
 
 ## 🔷 Common Misconceptions
 
+---
+
 ### **1. More segmentation always means better security**
 
 Too much segmentation can:
@@ -281,6 +286,8 @@ A working network can still be:
 
 ## 🔗 Impact on Other Domains
 
+---
+
 Network architecture directly impacts:
 
 - **Application Architecture**  *(e.g., service-to-service communication, latency, ingress patterns)*  
@@ -299,6 +306,8 @@ Network architecture directly impacts:
 ---
 
 ## 🔍 Closing Thoughts
+
+---
 
 Understanding network architecture is not about memorizing topologies, but about:
 

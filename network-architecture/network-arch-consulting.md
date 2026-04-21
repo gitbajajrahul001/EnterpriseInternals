@@ -309,6 +309,8 @@ In real-world engagements, network architecture is not designed purely based on 
 
 ## 🔍 Closing Thoughts
 
+---
+
 In enterprise environments, network architecture is not about choosing a pattern, but about:
 
 - managing trade-offs  
