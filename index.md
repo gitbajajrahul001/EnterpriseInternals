@@ -49,6 +49,6 @@ Breaking down how enterprise systems are actually designed — across applicatio
 - 🌐 [Network Architecture in the Enterprise](network-architecture)  
 - 🔐 [Security Architecture in the Enterprise](security-architecture)  
 - 📊 [Observability in the Enterprise](observability)  
-- 🔗 [Container Networking Architecture in the Enterprise](container-networking) -->
+- 🔗 [Container Networking Architecture in the Enterprise](container-networking)
 
 ---
