@@ -405,6 +405,8 @@ sudo ip netns exec ns2 tcpdump -i veth-ns2
 ----
 ## Lab Topology
 
+**Figure**: Connectivity between two network namespaces using a veth pair.
+
 ![Lab 1 Topology]({{ "/assets/images/lab1-topology.png" | relative_url }})
 
 ---
