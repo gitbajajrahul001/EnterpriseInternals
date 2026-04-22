@@ -405,7 +405,7 @@ sudo ip netns exec ns2 tcpdump -i veth-ns2
 ----
 ## Lab Topology
 
-![Lab 1 Topology](/assets/images/lab1-topology.png)
+![Lab 1 Topology]({{ "/assets/images/lab1-topology.png" | relative_url }})
 
 ---
 
