@@ -63,6 +63,8 @@ Business leaders do not look at revenue, cost, and profit as static numbers.  Th
 - **Cost** → efficiency, scalability, operational control  
 - **Profit / Margin** → sustainability, competitiveness, investor confidence  
 
+---
+
 ### **Where Technology Fits**
 
 Technology decisions are evaluated based on how they influence these levers:
@@ -76,8 +78,9 @@ Technology decisions are evaluated based on how they influence these levers:
 
 Technology is not evaluated in isolation — it is evaluated based on how it moves **revenue, cost, or margin**.
 
+---
 
-**What This Means for Architects**
+### 🔍 **What This Means for Architects**
 
 When proposing any architectural decision, the implicit questions from leadership are:
 
@@ -86,27 +89,21 @@ When proposing any architectural decision, the implicit questions from leadershi
 - Does this improve margins or financial predictability?
 - Does this reduce business risk?
 
-**Example**
-
-**Technical Framing**
-“Modernize application architecture”
-
-**Business Framing**
-- Reduce time-to-market → revenue acceleration  
-- Improve scalability → support business growth  
-- Reduce operational overhead → cost efficiency  
-
-### 🔍 Closing Thought
-
-Understanding this model is not about learning definitions — it is about shifting how you think:
+So understanding this model is not about learning definitions — it is about shifting how you think:
 
 - from **systems → outcomes**  
 - from **design → decisions**  
 - from **technology → business impact**
 
-> 
-> Architecture is not judged by correctness — it is judged by its impact on business outcomes.
-> 
+**Example**
+
+- Technical Framing
+  - “Modernize application architecture”
+
+- Business Framing
+  - Reduce time-to-market → revenue acceleration  
+  - Improve scalability → support business growth  
+  - Reduce operational overhead → cost efficiency  
 
 ---
 

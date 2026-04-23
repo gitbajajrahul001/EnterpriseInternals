@@ -42,7 +42,8 @@ Most architects design systems. Very few can **connect those systems to business
 
 ## 🚀 Start Here
 
-👉 [Business Foundations for Architects][Open](Business Foundations for Architects.md)
+👉 [Business Foundations for Architects](Business Foundations for Architects.md)
+
 
 
 > The difference between a good architect and an influential one is the ability to connect technology to business outcomes.
