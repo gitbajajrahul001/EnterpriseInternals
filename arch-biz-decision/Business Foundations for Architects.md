@@ -282,7 +282,7 @@ Resilience is not a technical capability — it is a **business continuity and r
 
 ---
 
-# 🔷 5. Cost Optimization as a Financial Lever
+## 🔷 5. Cost Optimization as a Financial Lever
 
 In enterprise environments, cost optimization is not treated as a tactical exercise — it is a **continuous financial discipline**. It directly influences:
 
@@ -366,7 +366,7 @@ Transformation without a clear value model is perceived as **cost expansion**, n
 | **Leadership Perception** | Program seen as expensive with unclear returns |
 | **Operational Reality** | Legacy inefficiencies carried into cloud environments |
 
-*Typical Scenario*
+*Typical Scenario:*
 
 | Initiative | Outcome |
 |-----------|--------|
@@ -374,7 +374,7 @@ Transformation without a clear value model is perceived as **cost expansion**, n
 | Increased cloud consumption | Costs rise due to lack of governance |
 | Limited business alignment | No measurable improvement in business KPIs |
 
-*Why This Happens*
+*Why This Happens:*
 
 - Cloud treated as an infrastructure migration, not a transformation  
 - Lack of alignment between IT initiatives and business priorities  
@@ -463,43 +463,3 @@ When proposing any solution, you should be able to answer:
 - The difference is rarely technical — it is **context and communication**  
 
 ---
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
----
-
-## 🧠 Closing Thought:
-
-Architecture is only complete when it drives informed business decisions.
-
----
-
-
-[Next: Business Foundations – Part 2 ➡]
