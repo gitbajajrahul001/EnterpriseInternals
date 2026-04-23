@@ -16,7 +16,8 @@ If you want to understand:
 - why architectures evolve  
 - how different domains connect  
 
-then this is where everything comes together and **develops a mindset of a Lead Architect**
+then this is where everything comes together — helping you think like a **technology leader** and lean-in towards **enterprise-level decision making**.
+
 
 ---
 
@@ -50,5 +51,12 @@ Breaking down how enterprise systems are actually designed — across applicatio
 - 🔐 [Security Architecture in the Enterprise](security-architecture)  
 - 📊 [Observability in the Enterprise](observability)  
 - 🔗 [Container Networking Architecture in the Enterprise](container-networking)
+- 🔗 [Container Networking Architecture in the Enterprise](container-networking)
 
 ---
+
+### 💼 Architecture & Business Thinking
+
+Bridging the gap between technology and business outcomes — focusing on decision-making, ROI, and CXO-level communication.
+
+- 💼 [Architecture to Business Translation](enterprise-decision-making-value-realization)
