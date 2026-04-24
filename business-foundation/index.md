@@ -5,6 +5,8 @@ title: Architecture, Business & Decision Making
 
 # Architecture, Business & Decision Making
 
+A journey from architect → advisor → decision maker
+
 ## Why This Series Exists
 
 In enterprise environments, architecture is not evaluated based on technical correctness alone.
