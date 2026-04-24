@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Business Foundations for Architects
+title: Business Foundations
 ---
 
-# Business Foundations for Architects
+# Business Foundations: How Enterprises Think About Value
 
 ## Why This Matters
 

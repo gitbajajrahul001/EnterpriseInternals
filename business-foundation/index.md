@@ -22,32 +22,15 @@ Very few are trained to **connect those systems to business outcomes and influen
 This series focuses on building that capability.
 
 ---
+## 👉 Start Here
 
-## What This Series Covers
-
-- **Business Foundations**  
-  *(how enterprises evaluate performance and make decisions)*  
-
-- **Financial Thinking**  
-  *(P&L, cost structures, budgeting, and financial impact of technology decisions)*  
-
-- **Architecture to Business Translation**  
-  *(positioning technical decisions in terms of outcomes)*  
-
-- **ROI & Business Case**  
-  *(how investments are evaluated, justified, and challenged)*  
-
-- **CXO Communication**  
-  *(how different stakeholders interpret and act on decisions)*  
-
-- **Decision Frameworks**  
-  *(how trade-offs are evaluated under real-world constraints)*  
-
----
-
-## Start Here
-
-👉 [Business Foundations for Architects](Business Foundations for Architects.md)
+[Part 1: Business Foundations: How Enterprises Think About Value](business-foundations.md)
+[Part 2: Financial Reality: How Decisions Are Evaluated and Funded](financial-reality.md)
+[Part 3: Decision Dynamics: How Architecture Influences Outcomes](decision-dynamics.md)
+[Part 4: Business Case Thinking: Justifying and Securing Decisions](business-case-thinking.md)
+[Part 5: Executive Alignment: Navigating CXO Expectations](executive-alignment.md)
+[Part 6: Trade-offs and Prioritization: Making Decisions Under Constraints](trade-offs-prioritization.md)
+[Part 7: Value Realization: Ensuring Outcomes Beyond Delivery](value-realization.md)
 
 ---
 

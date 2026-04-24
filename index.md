@@ -58,4 +58,4 @@ Breaking down how enterprise systems are actually designed — across applicatio
 
 Bridging the gap between technology and business outcomes — focusing on decision-making, ROI, and CXO-level communication.
 
-- 💼 [Architecture, Business, and Decision Making](arch-biz-decision)
+- 💼 [Architecture, Business, and Decision Making](business-foundation)
