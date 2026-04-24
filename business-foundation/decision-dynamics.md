@@ -37,8 +37,6 @@ The gap is not technical — it is contextual.
 
 You propose *“We should move to microservices architecture”*
 
----
-
 ### **Your intent**
 
 - better scalability  
@@ -78,7 +76,6 @@ At this moment, most architects do one of two things:
 - more resistance  
 - less alignment  
 
----
 
 ### **Option 2: Defend the solution**
 
@@ -91,7 +88,6 @@ At this moment, most architects do one of two things:
 - loss of trust  
 - decision stalls  
 
----
 
 ### 🧠 **What is actually needed**
 
@@ -206,17 +202,7 @@ This is not about communication. This is about:
 - navigating constraints  
 - adapting in real time  
 
-Architecture succeeds when it fits the context — not just when it is correct.
-
-```text
- 
-This is a Practical Shift :
- 
-**FROM** *“Here is the solution”* 
- 
- **TO** *“Here is the problem we need to solve”*
-  
-```
+Architecture succeeds when it fits the context — not just when it is correct. So an Architect must pivot from *“Here is the solution”* to *“Here is the problem we need to solve”*
 
 ---
 
