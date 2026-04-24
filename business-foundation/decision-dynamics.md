@@ -209,7 +209,13 @@ This is not about communication. This is about:
 Architecture succeeds when it fits the context — not just when it is correct.
 
 ```text
-This is a Practical Shift **FROM** *“Here is the solution”* -> **TO** *“Here is the problem we need to solve”*
+ 
+This is a Practical Shift :
+ 
+**FROM** *“Here is the solution”* 
+ 
+ **TO** *“Here is the problem we need to solve”*
+  
 ```
 
 ---
