@@ -227,4 +227,4 @@ There is no perfect answer. *Only a decision.*
 
 
 
-[⬅ Back to Series Home](index.md) |  [⬅ Back to: Inside the Room ➡](part-5.md) | [Next: Why Good Ideas Still Fail ➡](part-7.md)
+[⬅ Back to Series Home](index.md) |  [⬅ Back to: Inside the Room ➡](inside-the-room.md) | [Next: Why Good Ideas Still Fail ➡](post-approval-failure.md)

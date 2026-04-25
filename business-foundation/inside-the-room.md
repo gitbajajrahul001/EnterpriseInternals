@@ -253,4 +253,4 @@ Your role continues beyond the meeting.
 
 
 
-[⬅ Back to Series Home](index.md) |  [⬅ Back to: How to Build a Strong Case](part-4.md) | [Next: Alignment & Conflict ➡](part-6.md)
+[⬅ Back to Series Home](index.md) |  [⬅ Back to: How to Build a Strong Case](strong-case.md) | [Next: Alignment & Conflict ➡](alignment-conflict.md)

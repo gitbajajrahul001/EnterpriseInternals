@@ -234,6 +234,6 @@ Being explicit about what you don’t know is not a weakness. **It shows maturit
 ---
 
 
-[⬅ Back to Series Home](index.md) |  [⬅ Back to: How Decisions Actually Move ➡](part-3.md) | [Next: Inside the Room ➡](part-5.md)
+[⬅ Back to Series Home](index.md) |  [⬅ Back to: How Decisions Actually Move ➡](decision-flow.md) | [Next: Inside the Room ➡](inside-the-room.md)
 
 

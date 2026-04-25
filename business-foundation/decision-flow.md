@@ -228,4 +228,4 @@ You are not operating in a linear process.
 ---
 
 
-[⬅ Back to Series Home](index.md) |  [⬅ Back to: Why Technology Decisions Get Challenged](part-2.md) | [Next: How to Build a Strong Case ➡](part-4.md)
+[⬅ Back to Series Home](index.md) |  [⬅ Back to: Why Technology Decisions Get Challenged](technology-decisions.md) | [Next: How to Build a Strong Case ➡](strong-case.md)

@@ -239,4 +239,4 @@ Once you understand this, the shift is clear:
 
 ---
 
-[⬅ Back to Series Home](index.md) |  [⬅  Back to: Business Thinking for Architects](part-1.md) | [Next: How Decisions Actually Move ➡](part-3.md)
+[⬅ Back to Series Home](index.md) |  [⬅  Back to: Business Thinking for Architects](business-thinking.md) | [Next: How Decisions Actually Move ➡](decision-flow.md)

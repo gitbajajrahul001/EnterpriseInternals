@@ -280,4 +280,4 @@ Business Thinking
 
 
 
-[⬅ Back to Series Home](index.md) |  [⬅ Back to: Alignment & Conflict](part-6.md)
+[⬅ Back to Series Home](index.md) |  [⬅ Back to: Alignment & Conflict](alignment-conflict.md)

@@ -213,4 +213,4 @@ But you do need to think in terms of:
 ---
 
 
-[⬅ Back to: Series Home](index.md) |  [Next: Why Technology Decisions Get Challenged ➡](part-2.md)
+[⬅ Back to: Series Home](index.md) |  [Next: Why Technology Decisions Get Challenged ➡](technology-decisions.md)
