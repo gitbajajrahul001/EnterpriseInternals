@@ -59,3 +59,16 @@ Breaking down how enterprise systems are actually designed — across applicatio
 Bridging the gap between technology and business outcomes — focusing on decision-making, ROI, and CXO-level communication.
 
 - 💼 [Architecture, Business, and Decision Making](business-foundation)
+
+
+### 💼 Azure (Not What You Think)
+
+Most Azure content explains what services do. This series focuses on something more important:
+
+- What actually happens
+- Where designs break in real environments
+- The gaps between documentation and reality
+
+It is a deep dive into nuances, misconceptions, and architectural caveats across Azure networking, security, and platform design.
+
+- 🔗 [Networking Fundamentals-What actually happens](azure-not-what-you-think)
