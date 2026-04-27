@@ -1,3 +1,8 @@
+---
+layout: default
+title: Strategy & Discovery | Simulation
+---
+
 # Now let’s make this real
 
 You are now in:
@@ -36,7 +41,7 @@ Infra Head says:
 
 * * *
 
-## Your move
+### Your move
 
 You cannot agree with everyone blindly. 
 You need to respond with something like:
@@ -49,9 +54,9 @@ You need to respond with something like:
 
 * * *
 
-## Your task
+### Your task
 
-### How do you respond in that meeting that :
+#### How do you respond in that meeting that :
 
 *   aligns all stakeholders
 *   sets expectations correctly
@@ -68,18 +73,18 @@ Your job is to: **Bring alignment and reduce future conflict**
 
 ---
 
-## When multiple stakeholders conflict, use this simple structure
+### When multiple stakeholders conflict, use this simple structure
 
 
-### 1\. Acknowledge all perspectives
+#### 1\. Acknowledge all perspectives
 
 → shows awareness
 
-### 2\. Introduce reality/trade-offs
+#### 2\. Introduce reality/trade-offs
 
 → shows maturity
 
-### 3\. Define a structured path forward
+#### 3\. Define a structured path forward
 
 → shows leadership
 
@@ -97,49 +102,48 @@ Your job is to: **Bring alignment and reduce future conflict**
 
 #### ✅ “What I’m hearing…”
 
-You aligned everyone without taking sides.
-
+> You aligned everyone without taking sides.
 
 #### ✅ “We need to be careful…”
 
-You introduced **trade-offs** (this is senior thinking).
+> You introduced **trade-offs** (this is senior thinking).
 
 #### ✅ “Phased approach…”
 
-You gave **direction**, not confusion.
-
+> You gave **direction**, not confusion.
 
 #### ✅ “Secure foundation first…”
 
-You satisfied the CISO **without saying no to CIO**.
+> You satisfied the CISO **without saying no to CIO**.
 
 #### ✅ “Quick wins…”
 
-You satisfied the CFO and CIO **without committing unrealistic timelines**.
+> You satisfied the CFO and CIO **without committing unrealistic timelines**.
 
 #### ✅ “Success metrics…”
 
-You brought governance and control → leadership signal.
+> You brought governance and control → leadership signal.
 
-## Selection of Words (Same meaning-Different impact)
+### Selection of Words (Same meaning-Different impact)
 
 Examples:
-### Replace this:
+#### Replace this:
 
 *   “application assessment”
 *   “migration wave planning”
 *   “reserved instances”
 
-### With this:
+#### With this:
 
 *   “early optimization”
 *   “phased savings”
 *   “structured cost control”
 
-
 ---
 
-## Next Scenario (very important)
+## Next Scenario
+
+---
 
 ### CISO jumps in 
 
@@ -175,23 +179,25 @@ Examples:
 
 #### ✅ “We will not move forward without…”
 
-This gives **absolute assurance** to the CISO.
+> This gives **absolute assurance** to the CISO.
 
 #### ✅ “control validation / acceptance criteria / sign-off”
 
-You introduced **governance language** → very important at this level.
+> You introduced **governance language** → very important at this level.
 
 #### ✅ “balance risk and progress”
 
-This is the **core of transformation leadership**
+> This is the **core of transformation leadership**
 
 #### ✅ Shorter, sharper, more confident
 
-Less explanation → more authority
+> Less explanation → more authority
 
 ---
 
 ## 🔥 Next Scenario — Internal Conflict (Very Real)
+
+---
 
 ### Head of Infrastructure says:
 
@@ -265,6 +271,8 @@ In these conversations:
 
 
 ## 🚧 Next Scenario — Strategy Decision
+
+---
 
 ### CIO asks you directly:
 
