@@ -30,7 +30,7 @@ then this is where everything comes together — helping you think like a **tech
 - [Enterprise Application - Architecture Insights](application-architecture) 
 - [Enterprise Cloud Network - Architecture Insights](network-architecture)
 - [Enterprise Cloud Security - Architecture Insights](security-architecture) 
-- [Enterprise Observability - Architecture Insights](observability-architecture) 
+- [Enterprise Observability - Architecture Insights](observability) 
 - [Architecture & Business Thinking- Bridging the Gap](business-foundation)
 - [Architecting Azure - But Not What You Think](azure-not-what-you-think)
 

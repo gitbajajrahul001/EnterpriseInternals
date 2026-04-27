@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Architecting Enterprise Cloud Adoption
+title: Enterprise Cloud-Strategy to Execution
 ---
 
 # Strategy → Plan → Ready → Adopt → Operate & Govern
 
-## 📚 Architecting Enterprise Cloud Adoption
+## 📚 Enterprise Cloud-Strategy to Execution
 
 This blog series aims to build an **architect’s mindset** for enterprise cloud adoption — starting from the moment an organization begins its cloud journey. Organizations often rely on external consulting partners to shape their cloud strategy. This series bridges that gap by combining structured understanding with insights into how such transformations are approached and executed in practice.
 

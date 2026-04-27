@@ -25,22 +25,6 @@ then this is where everything comes together — helping you think like a **tech
 
 ---
 
-### 📊 Enterprise Sourcing (RFP Journey)
-
-Understanding how enterprises define requirements, evaluate providers, and execute sourcing decisions.
-
-- 📑 [Customer View](rfp/customer)  
-- 🤝 [Provider View](rfp/provider)  
-
----
-
-### ☁️ Cloud Transformation Journey
-
-From strategy to execution — combining structured frameworks with real-world implementation and case study.
-
-- ☁️ [Architecting Enterprise Cloud Adoption](cloud-adoption-blueprint)
-
----
 
 ### 🧱 Architecture Deep Dive
 
