@@ -1,6 +1,8 @@
 ---
+
 layout: default
 title: Mindset Building Questions|Cloud Transformation
+
 ---
 
 # Questions that make you Think 
@@ -13,7 +15,7 @@ From those 10,000 VMs, what specific data points would you extract to make migra
 
 ---
 
-### Sample Answer:
+### Sample Answer
 
 - From the current estate, I would extract application-centric and decision-enabling data.
 - This includes mapping each VM to its parent application, along with business criticality, compliance classification, environment, and exposure profile.
@@ -22,7 +24,7 @@ From those 10,000 VMs, what specific data points would you extract to make migra
 - Finally, I would analyze resource utilization patterns — CPU, memory, storage, and network — to enable right-sizing and accurate cost modeling.
 
 
-✅ **This Covers:**
+#### **This Covers:**
 
 
 - business view ✔
@@ -32,14 +34,17 @@ From those 10,000 VMs, what specific data points would you extract to make migra
 - dependency view ✔
 
 
+**Remember**
 
-### Remember
+> - **Inventory** tells you what exists
+> - **Dependencies** tell you what matters
+> - **Utilization** tells you what it should become
 
-- **Inventory** tells you what exists
-- **Dependencies** tell you what matters
-- **Utilization** tells you what it should become
+---
 
-#### 1. Dependency & Data Flow
+### **A Few Decision Markers**
+
+#### **1. Dependency & Data Flow**
 
 > Application → Other Applications / Services / Data Sources
 
@@ -53,7 +58,7 @@ From those 10,000 VMs, what specific data points would you extract to make migra
 - batch jobs
 - third-party integrations
 
-#### 2. Resource Utilization & Sizing
+#### **2. Resource Utilization & Sizing**
 
 **You need:**
 
@@ -62,13 +67,13 @@ From those 10,000 VMs, what specific data points would you extract to make migra
 - Disk I/O
 - Network throughput
 
-👉 *Without this:*
+👉 *Without this:***
 > - you cannot right-size
 > - you cannot estimate cost
 > - you cannot optimize
 
 
-#### 3. OS, Lifecycle, and Supportability
+#### **3. OS, Lifecycle, and Supportability**
 
 **You need:**
 
@@ -76,7 +81,7 @@ From those 10,000 VMs, what specific data points would you extract to make migra
 - patch status
 - licensing type (Windows, SQL, Oracle, RHEL)
 
-👉 *This directly impacts:*
+👉 *This directly impacts:***
 
 - migration feasibility
 - cost
@@ -86,18 +91,18 @@ From those 10,000 VMs, what specific data points would you extract to make migra
 
 ##  Question #2
 
-You’ve completed **initial discovery**. Service Provider team comes to you and says:
+You’ve completed **initial discovery**. Service Provider team comes to you and says:**
 
 > “We have the inventory. Let’s start designing the Azure Landing Zone so we can move fast.”
 
 **This is a trap**
 
-Most organizations say:
+Most organizations say:**
 
 > “Yes, let’s build landing zone”
 
 ---
-### Sample Answer
+### **Sample Answer**
 
 - I would not start full landing-zone design purely from infrastructure inventory.
 - We can begin a **baseline platform design track**, but the final landing zone must be informed by workload classification, regulatory boundaries, network dependencies, identity model, operating model, and regional/data residency requirements.
@@ -110,18 +115,18 @@ Most organizations say:
 
 ---
 
-### What “Baseline Platform Design Track” means
+### **What “Baseline Platform Design Track” means**
 
-It means:
+**It means:**
 
 Start building the cloud foundation in parallel — but only the parts that are stable, universal, and low-risk — without locking yourself into wrong decisions for workloads later.
 
 
-#### Think of it like this:
+#### **Think of it like this:**
 
 You don’t wait 6 months to build anything. But you also don’t design everything upfront based on incomplete data.
 
-So you split:
+**So you split:**
 
 | Track | Purpose |
 | --- | --- |
@@ -130,27 +135,27 @@ So you split:
 
 * * *
 
-### What you CAN design early (Baseline)
+### **What you CAN design early (Baseline)**
 
 These are **safe, foundational, and unlikely to change drastically**
 
-#### 1\. Management Group Hierarchy (Initial Version)
+#### **1\. Management Group Hierarchy (Initial Version)**
 
-Example:
+**Example:**
 
 *   Root
     *   Platform
     *   Landing Zones
     *   Sandbox
 
-👉 *Why safe?  *
+👉 *Why safe?*
 > Because structure can evolve, but initial separation is predictable.
 
 * * *
 
-#### 2\. Subscription Strategy (High-Level)
+#### **2\. Subscription Strategy (High-Level)**
 
-Example:
+**Example:**
 
 *   Platform Subscription (shared services)
 *   Connectivity Subscription
@@ -161,9 +166,9 @@ Example:
 
 * * *
 
-#### 3\. Identity Foundation
+#### **3\. Identity Foundation**
 
-Example:
+**Example:**
 
 *   Entra ID (Azure AD) integration
 *   RBAC baseline roles
@@ -173,9 +178,9 @@ Example:
 
 * * *
 
-#### 4\. Core Security Guardrails (Baseline Policies)
+#### **4\. Core Security Guardrails (Baseline Policies)**
 
-Example:
+**Example:**
 
 *   No public IP by default
 *   Allowed regions
@@ -186,9 +191,9 @@ Example:
 
 * * *
 
-#### 5\. Logging & Monitoring Foundation
+#### **5\. Logging & Monitoring Foundation**
 
-Example:
+**Example:**
 
 *   Central Log Analytics Workspace
 *   Diagnostic settings baseline
@@ -198,9 +203,9 @@ Example:
 
 * * *
 
-#### 6\. IaC Framework
+#### **6\. IaC Framework**
 
-Example:
+**Example:**
 
 *   Terraform/Bicep structure
 *   Git repo structure
@@ -210,11 +215,11 @@ Example:
 
 * * *
 
-### What you should NOT finalize yet
+### **What you should NOT finalize yet**
 
 This is where most teams make mistakes.
 
-#### 1\. Network Topology (final)
+#### **1\. Network Topology (final)**
 
 *   Hub-spoke vs vWAN vs segmentation  
 
@@ -225,13 +230,13 @@ This is where most teams make mistakes.
 
 
 
-#### 2\. IP Addressing (final ranges)
+#### **2\. IP Addressing (final ranges)**
 
 👉 Without dependency + scale clarity → rework later
 
 
 
-#### 3\. Subscription-per-app strategy (final)
+#### **3\. Subscription-per-app strategy (final)**
 
 👉 Depends on:
 
@@ -239,14 +244,14 @@ This is where most teams make mistakes.
 > *   ownership
 > *   cost model
 
-#### 4\. Security exceptions
+#### **4\. Security exceptions**
 
 👉 You don’t know yet:
 
 > *   which apps need internet
 > *   which need special ports
 
-#### 5\. Region strategy (final)
+#### **5\. Region strategy (final)**
 
 👉 Depends on:
 
@@ -255,9 +260,9 @@ This is where most teams make mistakes.
 > *   app latency
 
 ---
-## Real-world example (this will click)
+### Real-world example (this will click)
 
-### Wrong approach
+#### **Wrong approach**
 
 **Team says:**
 
@@ -271,7 +276,7 @@ This is where most teams make mistakes.
 
 → **Rework**
 
-### Correct approach (Baseline Track)
+#### **Correct approach (Baseline Track)**
 
 **You say:**
 
@@ -279,21 +284,21 @@ This is where most teams make mistakes.
 
 ---
 
-## Simple mental model
+### Simple mental model
 
-### Build early:
+#### **Build early:**
 
 *  Controls
 *  Governance
 *  Tooling
 
-### Delay slightly:
+#### **Delay slightly:**
 
 *   Topology
 *   Segmentation
 *   Workload placement
 
-### Define in Baseline:
+#### **Define in Baseline:**
 
 *   Management group structure (initial)
 *   Subscription pattern (platform vs landing zones)
@@ -303,9 +308,8 @@ This is where most teams make mistakes.
 *   Logging/monitoring
 *   IaC framework
 
-* * *
 
-### Remeber
+**Remeber**
 
 > **Baseline platform design** is building what you are confident about — while **deliberately postponing** what depends on **unknowns.**
 ---
@@ -319,7 +323,7 @@ You’ve started baseline platform work. Meanwhile, discovery team comes back an
 > *   no clear owner exists
 > *   dependencies are unclear
 > *   some VMs haven’t been accessed in months
-> *   duplicate environments exist (shadow IT)”
+> *   duplicate environments exist (shadow IT)
 
 👉 What do you do with these workloads?
 
@@ -327,7 +331,7 @@ You’ve started baseline platform work. Meanwhile, discovery team comes back an
 
 * * *
 
-### Sample Answer: 
+### **Sample Answer:** 
   
 - We shouldn’t block the transformation waiting for complete clarity on these workloads.
 - I would classify them into three categories — candidates for retirement, candidates for further investigation, and low-risk workloads that can be used for early migration validation.
@@ -336,38 +340,38 @@ You’ve started baseline platform work. Meanwhile, discovery team comes back an
 - This approach allows us to reduce estate complexity early, unlock cost savings, and keep the transformation moving while resolving unknowns in a controlled manner.”
   
 
-### Why this is strong
+### **Why this is strong**
 
-#### ✅ You didn’t block progress
+#### **✅ You didn’t block progress**
 
 > Critical for large programs
 > 
 
-#### ✅ You introduced classification
+#### **✅ You introduced classification**
 
 > This is **architect thinking**
 > 
-#### ✅ You turned a problem into an advantage
+#### **✅ You turned a problem into an advantage**
 
 > Cleanup = cost savings + simplification
 
-#### ✅ You added control (validation before delete)
+#### **✅ You added control (validation before delete)**
 > CISO + CIO comfort
-
 ---
-### Key mindset shift
+
+#### **Key mindset shift**
 
 > ❌ “We need clarity before moving”  
 > ✅ “We move forward while systematically creating clarity”
 > 
 ---
 
-## Further explaing (No Owner Scenario)
+### Further explaining (No Owner Scenario)
 
 If no direct application owner exists, we shift from _application ownership_ to _organizational accountability_.
 
 
-### Practicle Approach in Real transformations
+#### **Practicle Approach in Real transformations**
 
 *   100% clarity → never happens
 *   70% clarity + strong controls → progress happens
@@ -376,49 +380,49 @@ If no direct application owner exists, we shift from _application ownership_ to 
 > - You create a **governed fallback ownership model**
 
 
-**You do this Instead:**
+#### **You do this Instead:**
 
-#### 1\. Use CMDB / Org Mapping (if available)
+##### **1\. Use CMDB / Org Mapping (if available)**
 
 
  > *   Map VM → Cost center / Business unit
- > *   Identify:
+ > *   Identify:**
  >     *   BU head
  >     *   App portfolio owner
  >     *   Infra owner
  
 👉 Someone always owns the **budget**
 
-#### 2\. Introduce “Default Ownership Escalation”
+##### **2\. Introduce “Default Ownership Escalation”**
 
 > If no owner: **Escalate to:**
 > *   Application Portfolio Owner OR
 > *   Business Unit Head OR
 > *   CIO delegate
 
-👉 **You don’t ask:**
+👉 You don’t ask:
 
 > “Who owns this app?”
 
-👉 **You ask:**
+👉 You ask:
 
 > “Who is accountable if we delete this?”
 
-#### 3\. Define a Formal Decommission Policy
+##### **3\. Define a Formal Decommission Policy**
 
-Example:
+Example:**
 
  > *   Notify stakeholders (email + ticket)
  > *   30-day observation window
  > *   No activity + no claim → mark as **decommission candidate**
- > *   Final approval:
+ > *   Final approval:**
  >     *   Infra Head / CIO office / Governance board
 > 
 
 
-### 4\. Use Data to Support Decision
+##### **4\. Use Data to Support Decision**
 
-Example:
+Example:**
 
 > *   No login activity
 > *   No network traffic
@@ -428,9 +432,9 @@ Example:
 
 👉 This reduces fear-based resistance
 
-### 5\. Implement “Soft Decommission First”
+##### **5\. Implement “Soft Decommission First”**
 
-Before deleting:
+Before deleting:**
 
 > *   Shutdown VM
 > *   Keep snapshot/backup
@@ -440,7 +444,7 @@ Before deleting:
 
 ---
 
-## Sample Response(No Owner Sceanrio)
+### Sample Response(No Owner Sceanrio)
 
 - In cases where application ownership is unclear, we shift to an accountability model based on business unit or cost ownership.
 - We define a structured decommissioning process with notifications, observation windows, and escalation to the CIO or designated governance body if no owner is identified.
@@ -450,10 +454,9 @@ Before deleting:
 ---
 ## Key Mindset Shift
 
-- ❌ “No owner → we can’t act”  
-- ✅ “No owner → escalate accountability and act with governance”
+> - ❌ “No owner → we can’t act”  
+> - ✅ “No owner → escalate accountability and act with governance”
 
-> 
->   You don’t wait for perfect org structures. You **design around enterprise chaos**
+You don’t wait for perfect org structures. You **design around enterprise chaos**
 >
 ---
