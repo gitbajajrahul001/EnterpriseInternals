@@ -15,7 +15,7 @@ From those 10,000 VMs, what specific data points would you extract to make migra
 
 ---
 
-### Sample Answer
+### **Sample Answer**
 
 - From the current estate, I would extract application-centric and decision-enabling data.
 - This includes mapping each VM to its parent application, along with business criticality, compliance classification, environment, and exposure profile.
@@ -36,9 +36,9 @@ From those 10,000 VMs, what specific data points would you extract to make migra
 
 **Remember**
 
-> - **Inventory** tells you what exists
-> - **Dependencies** tell you what matters
-> - **Utilization** tells you what it should become
+> - *Inventory* tells you what exists
+> - *Dependencies* tell you what matters
+> - *Utilization* tells you what it should become
 
 ---
 
@@ -67,7 +67,7 @@ From those 10,000 VMs, what specific data points would you extract to make migra
 - Disk I/O
 - Network throughput
 
-👉 *Without this:***
+👉 *Without this:
 > - you cannot right-size
 > - you cannot estimate cost
 > - you cannot optimize
@@ -81,7 +81,7 @@ From those 10,000 VMs, what specific data points would you extract to make migra
 - patch status
 - licensing type (Windows, SQL, Oracle, RHEL)
 
-👉 *This directly impacts:***
+👉 *This directly impacts:
 
 - migration feasibility
 - cost
@@ -97,7 +97,7 @@ You’ve completed **initial discovery**. Service Provider team comes to you and
 
 **This is a trap**
 
-Most organizations say:**
+Most organizations say:
 
 > “Yes, let’s build landing zone”
 
@@ -111,7 +111,7 @@ Most organizations say:**
 
 **Remeber**
 > - A landing zone is not just a cloud build.
-> - It is the **technical expression of governance, security, operations, network, compliance, and workload strategy**.
+> - It is the technical expression of governance, security, operations, network, compliance, and workload strategy.
 
 ---
 
@@ -260,7 +260,7 @@ This is where most teams make mistakes.
 > *   app latency
 
 ---
-### Real-world example (this will click)
+### **Real-world example (this will click)**
 
 #### **Wrong approach**
 
@@ -284,7 +284,7 @@ This is where most teams make mistakes.
 
 ---
 
-### Simple mental model
+### **Simple mental model**
 
 #### **Build early:**
 
@@ -309,12 +309,10 @@ This is where most teams make mistakes.
 *   IaC framework
 
 
-**Remeber**
-
-> **Baseline platform design** is building what you are confident about — while **deliberately postponing** what depends on **unknowns.**
+*Baseline platform design* is building what you are confident about — while deliberately postponing what depends on unknowns.
 ---
 
-## Question #3
+## **Question #3**
 
 You’ve started baseline platform work. Meanwhile, discovery team comes back and says:
 
@@ -327,7 +325,7 @@ You’ve started baseline platform work. Meanwhile, discovery team comes back an
 
 👉 What do you do with these workloads?
 
->You don’t “wait” — you **classify and act in parallel**
+>You don’t “wait” — you classify and act in parallel
 
 * * *
 
@@ -342,21 +340,24 @@ You’ve started baseline platform work. Meanwhile, discovery team comes back an
 
 ### **Why this is strong**
 
-#### **✅ You didn’t block progress**
+#### You didn’t block progress
 
 > Critical for large programs
 > 
 
-#### **✅ You introduced classification**
+#### You introduced classification
 
-> This is **architect thinking**
+> This is architect thinking
 > 
-#### **✅ You turned a problem into an advantage**
+#### You turned a problem into an advantage
 
 > Cleanup = cost savings + simplification
 
-#### **✅ You added control (validation before delete)**
+#### You added control (validation before delete)
+> 
 > CISO + CIO comfort
+> 
+
 ---
 
 #### **Key mindset shift**
@@ -366,7 +367,7 @@ You’ve started baseline platform work. Meanwhile, discovery team comes back an
 > 
 ---
 
-### Further explaining (No Owner Scenario)
+### **Further explaining (No Owner Scenario)**
 
 If no direct application owner exists, we shift from _application ownership_ to _organizational accountability_.
 
@@ -377,25 +378,23 @@ If no direct application owner exists, we shift from _application ownership_ to 
 *   70% clarity + strong controls → progress happens
  
 > - You don’t rely on “finding owners”. 
-> - You create a **governed fallback ownership model**
+> - You create a governed fallback ownership model
 
 
 #### **You do this Instead:**
 
-##### **1\. Use CMDB / Org Mapping (if available)**
+#### **1\. Use CMDB / Org Mapping (if available)**
 
 
  > *   Map VM → Cost center / Business unit
- > *   Identify:**
- >     *   BU head
- >     *   App portfolio owner
- >     *   Infra owner
+ > *   Identify → BU head + App portfolio owner + Infra owner
  
-👉 Someone always owns the **budget**
+👉 Someone always owns the budget
 
-##### **2\. Introduce “Default Ownership Escalation”**
+#### **2\. Introduce “Default Ownership Escalation**
 
-> If no owner: **Escalate to:**
+> If no owner: Escalate to:
+
 > *   Application Portfolio Owner OR
 > *   Business Unit Head OR
 > *   CIO delegate
@@ -408,21 +407,20 @@ If no direct application owner exists, we shift from _application ownership_ to 
 
 > “Who is accountable if we delete this?”
 
-##### **3\. Define a Formal Decommission Policy**
+#### **3\. Define a Formal Decommission Policy**
 
-Example:**
+Example:
 
  > *   Notify stakeholders (email + ticket)
  > *   30-day observation window
- > *   No activity + no claim → mark as **decommission candidate**
- > *   Final approval:**
- >     *   Infra Head / CIO office / Governance board
+ > *   No activity + no claim → mark as decommission candidate
+ > *   Final approval: Infra Head / CIO office / Governance board
 > 
 
 
-##### **4\. Use Data to Support Decision**
+#### **4\. Use Data to Support Decision**
 
-Example:**
+Example:
 
 > *   No login activity
 > *   No network traffic
@@ -432,9 +430,9 @@ Example:**
 
 👉 This reduces fear-based resistance
 
-##### **5\. Implement “Soft Decommission First”**
+#### **5\. Implement “Soft Decommission First”**
 
-Before deleting:**
+Before deleting:
 
 > *   Shutdown VM
 > *   Keep snapshot/backup
@@ -444,7 +442,7 @@ Before deleting:**
 
 ---
 
-### Sample Response(No Owner Sceanrio)
+### **Sample Response(No Owner Sceanrio)**
 
 - In cases where application ownership is unclear, we shift to an accountability model based on business unit or cost ownership.
 - We define a structured decommissioning process with notifications, observation windows, and escalation to the CIO or designated governance body if no owner is identified.
@@ -452,11 +450,11 @@ Before deleting:**
 -  This ensures we can safely reduce unused assets without blocking progress due to ownership gaps.”
    
 ---
-## Key Mindset Shift
+### **Key Mindset Shift**
 
 > - ❌ “No owner → we can’t act”  
 > - ✅ “No owner → escalate accountability and act with governance”
 
-You don’t wait for perfect org structures. You **design around enterprise chaos**
->
+You don’t wait for perfect org structures. You design around enterprise chaos.
+
 ---
