@@ -9,7 +9,7 @@ title: Mindset Building Questions|Cloud Transformation
 
 ---
 
-## Question #1 
+## **Question #1**
 
 From those 10,000 VMs, what specific data points would you extract to make migration decisions?
 
@@ -67,7 +67,7 @@ From those 10,000 VMs, what specific data points would you extract to make migra
 - Disk I/O
 - Network throughput
 
-👉 *Without this:
+👉 Without this:
 > - you cannot right-size
 > - you cannot estimate cost
 > - you cannot optimize
@@ -81,7 +81,7 @@ From those 10,000 VMs, what specific data points would you extract to make migra
 - patch status
 - licensing type (Windows, SQL, Oracle, RHEL)
 
-👉 *This directly impacts:
+👉 This directly impacts:
 
 - migration feasibility
 - cost
@@ -89,9 +89,9 @@ From those 10,000 VMs, what specific data points would you extract to make migra
 
 ---
 
-##  Question #2
+##  **Question #2**
 
-You’ve completed **initial discovery**. Service Provider team comes to you and says:**
+You’ve completed initial discovery. Service Provider team comes to you and says:
 
 > “We have the inventory. Let’s start designing the Azure Landing Zone so we can move fast.”
 
@@ -102,6 +102,7 @@ Most organizations say:
 > “Yes, let’s build landing zone”
 
 ---
+
 ### **Sample Answer**
 
 - I would not start full landing-zone design purely from infrastructure inventory.
@@ -110,8 +111,10 @@ Most organizations say:
 - The key is to avoid building a technically clean landing zone that does not match how the bank’s applications, compliance zones, and operating teams actually work.”
 
 **Remeber**
+> 
 > - A landing zone is not just a cloud build.
 > - It is the technical expression of governance, security, operations, network, compliance, and workload strategy.
+> 
 
 ---
 
@@ -137,7 +140,7 @@ You don’t wait 6 months to build anything. But you also don’t design everyth
 
 ### **What you CAN design early (Baseline)**
 
-These are **safe, foundational, and unlikely to change drastically**
+These are safe, foundational, and unlikely to change drastically
 
 #### **1\. Management Group Hierarchy (Initial Version)**
 
@@ -310,6 +313,7 @@ This is where most teams make mistakes.
 
 
 *Baseline platform design* is building what you are confident about — while deliberately postponing what depends on unknowns.
+
 ---
 
 ## **Question #3**
@@ -335,7 +339,7 @@ You’ve started baseline platform work. Meanwhile, discovery team comes back an
 - I would classify them into three categories — candidates for retirement, candidates for further investigation, and low-risk workloads that can be used for early migration validation.
 - For VMs with no activity or unclear ownership, we can initiate a structured decommissioning validation process with defined timelines and business sign-off.
 - In parallel, we should engage application teams and escalate where needed, but not make overall progress dependent on them.
-- This approach allows us to reduce estate complexity early, unlock cost savings, and keep the transformation moving while resolving unknowns in a controlled manner.”
+- This approach allows us to reduce estate complexity early, unlock cost savings, and keep the transformation moving while resolving unknowns in a controlled manner.
   
 
 ### **Why this is strong**
@@ -381,7 +385,7 @@ If no direct application owner exists, we shift from _application ownership_ to 
 > - You create a governed fallback ownership model
 
 
-#### **You do this Instead:**
+### **You do this Instead:**
 
 #### **1\. Use CMDB / Org Mapping (if available)**
 
@@ -447,9 +451,10 @@ Before deleting:
 - In cases where application ownership is unclear, we shift to an accountability model based on business unit or cost ownership.
 - We define a structured decommissioning process with notifications, observation windows, and escalation to the CIO or designated governance body if no owner is identified.
 - Decisions are supported by usage and dependency data, and we follow a staged approach — starting with shutdown and monitoring before final deletion.
--  This ensures we can safely reduce unused assets without blocking progress due to ownership gaps.”
+-  This ensures we can safely reduce unused assets without blocking progress due to ownership gaps.
    
 ---
+
 ### **Key Mindset Shift**
 
 > - ❌ “No owner → we can’t act”  
