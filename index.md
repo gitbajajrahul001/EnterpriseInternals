@@ -32,7 +32,7 @@ then this is where everything comes together — helping you think like a **tech
 - [Enterprise Cloud Security - Architecture Insights](security-architecture) 
 - [Enterprise Observability - Architecture Insights](observability) 
 - [Architecture & Business Thinking- Bridging the Gap](business-foundation)
-- [Cloud Transformation - A Real World Simulation](cloud-transformation-deep-dive)
+- [Azure Landing Zone ](azure-landing-zone)
 
 
 ---

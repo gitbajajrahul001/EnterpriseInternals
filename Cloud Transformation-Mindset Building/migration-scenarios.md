@@ -1,21 +1,23 @@
 ---
 
 layout: default
-title: Mindset Building Questions|Cloud Transformation
+title: Migration Scenarios|Cloud Transformation
 
 ---
 
-# Questions that make you Think 
+# Scenarios that make you Think 
+
+The *What* and the *Why* - Sample Migration Scenarios
 
 ---
 
-## 🔥 **Question #1 | Transformation Thinking & Decision**
+## 🔥 **Scenario - Transformation Thinking & Decision**
 
 From those 10,000 VMs, what specific data points would you extract to make migration decisions?
 
 ---
 
-### **Sample Answer**
+### **Sample Response**
 
 - From the current estate, I would extract application-centric and decision-enabling data.
 - This includes mapping each VM to its parent application, along with business criticality, compliance classification, environment, and exposure profile.
@@ -89,7 +91,7 @@ From those 10,000 VMs, what specific data points would you extract to make migra
 
 ---
 
-## 🔥**Question #2 | Real Architecture Decision**
+## 🔥**Scenario - Real Architecture Decision**
 
 You’ve completed initial discovery. Service Provider team comes to you and says:
 
@@ -103,7 +105,7 @@ Most organizations say:
 
 ---
 
-### **Sample Answer**
+### **Sample Response**
 
 - I would not start full landing-zone design purely from infrastructure inventory.
 - We can begin a **baseline platform design track**, but the final landing zone must be informed by workload classification, regulatory boundaries, network dependencies, identity model, operating model, and regional/data residency requirements.
@@ -316,7 +318,7 @@ This is where most teams make mistakes.
 
 ---
 
-## 🔥**Question #3 | Real Transformation problem-solving**
+## 🔥**Scenario | Real Transformation problem-solving**
 
 You’ve started baseline platform work. Meanwhile, discovery team comes back and says:
 
@@ -333,7 +335,7 @@ You’ve started baseline platform work. Meanwhile, discovery team comes back an
 
 * * *
 
-### **Sample Answer:** 
+### **Sample Response:** 
   
 - We shouldn’t block the transformation waiting for complete clarity on these workloads.
 - I would classify them into three categories — candidates for retirement, candidates for further investigation, and low-risk workloads that can be used for early migration validation.
