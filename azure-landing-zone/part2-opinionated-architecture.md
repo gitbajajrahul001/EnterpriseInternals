@@ -50,7 +50,6 @@ And what usually happens?
 
 ## So What Do You Do?
 
-# 
 
 You remove ambiguity.
 
