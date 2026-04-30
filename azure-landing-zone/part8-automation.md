@@ -121,7 +121,7 @@ Code → Commit → Pipeline → Deploy → Validate
 
 * * *
 
-### 3\. GitOps Model (Advanced but powerful)
+### **3\. GitOps Model (Advanced but powerful)**
 
 Git = source of truth
 
