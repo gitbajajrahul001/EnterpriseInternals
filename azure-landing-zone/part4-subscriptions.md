@@ -1,18 +1,22 @@
+---
+
+layout: default
+title: Designing Subscription Strategy
+
+---
+
+
 # 💳 Designing Subscription Strategy
 
 ### _Where Ownership, Cost, and Control Actually Live_
 
-# 
+If Management Groups define *governance*…
 
-If Management Groups define **governance**…
-
-> **Subscriptions define accountability**
+> Subscriptions define accountability
 
 * * *
 
 ## 🔥 Why Subscription Design is Critical
-
-# 
 
 Most real problems in cloud don’t come from:
 
@@ -27,15 +31,13 @@ They come from:
 *   access chaos
 *   deployment conflicts
 
-👉 All of this ties back to **subscription design**
+👉 All of this ties back to *subscription design*
 
 * * *
 
-# ❌ Common Mistakes
+## ❌ Common Mistakes
 
-## 1\. One Subscription for Everything
-
-# 
+### 1\. One Subscription for Everything
 
 Subscription-1  
 ├── All apps  
@@ -51,9 +53,8 @@ Subscription-1
 
 * * *
 
-## 2\. One Subscription per App (blindly)
+### 2\. One Subscription per App (blindly)
 
-# 
 
 App1-Sub  
 App2-Sub  
@@ -68,9 +69,7 @@ App3-Sub
 
 * * *
 
-## 3\. Environment-based only
-
-# 
+### 3\. Environment-based only
 
 Prod-Sub  
 Dev-Sub  
@@ -84,11 +83,9 @@ QA-Sub
 
 * * *
 
-# ✅ What Subscriptions Should Represent
+## ✅ What Subscriptions Should Represent
 
-# 
-
-> **A subscription is a boundary for:**
+A subscription is a boundary for:
 
 *   Ownership
 *   Cost (billing unit)
@@ -100,54 +97,38 @@ QA-Sub
 
 # 🧠 Key Design Dimensions
 
-# 
-
 You must balance these:
-
-* * *
 
 ## 1\. Ownership
 
-# 
 
 *   Who owns the workload?
 *   Which team is accountable?
 
-* * *
 
 ## 2\. Cost Visibility
-
-# 
 
 *   Can you track cost per:
     *   app?
     *   business unit?
     *   environment?
 
-* * *
 
 ## 3\. Isolation
 
-# 
 
 *   Blast radius
 *   Security boundaries
 *   Compliance needs
 
-* * *
-
 ## 4\. Scale
 
-# 
 
 *   10 apps vs 1000 apps
 *   future growth
 
-* * *
-
 ## 5\. Operations
 
-# 
 
 *   CI/CD pipelines
 *   access management
@@ -159,11 +140,9 @@ You must balance these:
 
 ## Platform Subscriptions
 
-# 
-
-Platform-Identity  
-Platform-Connectivity  
-Platform-Management
+- Platform-Identity  
+- Platform-Connectivity  
+- Platform-Management
 
 👉 Owned by central cloud/platform team
 
@@ -171,15 +150,9 @@ Platform-Management
 
 ## Landing Zone Subscriptions (Workloads)
 
-# 
+Instead of 1 rigid rule, use *pattern-based approach*
 
-Instead of 1 rigid rule, use **pattern-based approach**
-
-* * *
-
-## Pattern 1 — App + Environment (most common)
-
-# 
+### Pattern 1 — App + Environment (most common)
 
 App1-Prod  
 App1-NonProd  
@@ -196,8 +169,6 @@ App2-NonProd
 
 ## Pattern 2 — Shared Non-Prod
 
-# 
-
 App1-Prod  
 Shared-NonProd
 
@@ -210,8 +181,6 @@ Shared-NonProd
 * * *
 
 ## Pattern 3 — Regulated Workloads
-
-# 
 
 PCI-App1-Prod  
 PCI-App1-NonProd
@@ -226,8 +195,6 @@ PCI-App1-NonProd
 
 ## Sandbox Subscription
 
-# 
-
 Sandbox-Sub
 
 👉 Purpose:
@@ -238,47 +205,7 @@ Sandbox-Sub
 
 * * *
 
-# 🔥 Real-World Example
-
-## Core Banking App
-
-# 
-
-CoreBanking-Prod  
-CoreBanking-NonProd
-
-*   high control
-*   strict access
-*   dedicated subscriptions
-
-* * *
-
-## Internal HR App
-
-# 
-
-HR-Prod  
-Shared-NonProd
-
-*   lower risk
-*   cost optimized
-
-* * *
-
-## Shadow IT / Unknown
-
-# 
-
-Quarantine-Sub
-
-*   limited access
-*   strict policies
-
-* * *
-
-# ⚖️ Key Trade-offs
-
-# 
+## ⚖️ Key Trade-offs
 
 | Approach | Pros | Cons |
 | --- | --- | --- |
@@ -287,17 +214,13 @@ Quarantine-Sub
 
 * * *
 
-# 💡 Golden Rule
+## 💡 Golden Rule
 
-# 
-
-> **Design subscriptions around ownership and cost — not just structure**
+Design subscriptions around ownership and cost — not just structure
 
 * * *
 
 # 🔁 Relationship with Management Groups
-
-# 
 
 | Level | Purpose |
 | --- | --- |
@@ -308,21 +231,17 @@ Quarantine-Sub
 
 # 🧠 Architect Thinking
 
-# 
-
 You don’t ask:
 
 > “How many subscriptions should I create?”
 
 You ask:
 
-> **“Where do I need separate ownership, cost visibility, and isolation?”**
+> *“Where do I need separate ownership, cost visibility, and isolation?”*
 
 * * *
 
 # 🚨 Subtle but Important Insight
-
-# 
 
 Most failures happen when:
 
@@ -347,4 +266,8 @@ Now we have:
 
 Next comes the most complex part:
 
-## 👉 Network Architecture (Hub-Spoke, vWAN, Segmentation, Connectivity)
+👉 Network Architecture (Hub-Spoke, vWAN, Segmentation, Connectivity)
+
+---
+
+[⬅ Back to Series Home](index.md) |  [⬅ Back to: Management Group Design ➡](part3-management-groups.md) | [Next: Network Design ➡](part5-network.md)
